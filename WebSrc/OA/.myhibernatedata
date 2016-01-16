@@ -1,0 +1,22 @@
+#
+#Mon Aug 03 16:14:05 CST 2009
+genBasicCompId=false
+sessionFactoryName=com.icss.hit.hibernate.HibernateSessionFactory
+profile=
+daoSFId=
+version=3.1
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=/WebRoot/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/OA/hibernate.reveng.xml
+configFile=/OA/src/com/icss/hit/hibernate/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true

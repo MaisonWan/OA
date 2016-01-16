@@ -1,0 +1,1 @@
+com.icss.hit.struts.action包中，主要是Struts中连接的Action文件。

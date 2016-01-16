@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<script>
+function msg(msg)
+{
+alert(msg);
+}
+function goto(url)
+{
+   window.location.replace(url);
+}
+</script>
+<title>OA办公系统-预约会议室</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+
+<div id="content" style="font-size:13px;">
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->会议室预约</div>
+<hr class="line"><div style="margin:'margin-center'">
+<table class="table"  cellpadding="6" cellspacing="0">
+<thead class="tableHead">会议室预约<td width="630"></thead>
+        <tr>
+          <td><select name="select_Factor" id="select">
+              <option value="employee_Number" selected="selected">编号</option>
+              <option value="employee_Name">名称</option>
+            </select>
+            <input name="textfield" type="text" size="8" />
+容纳人数
+<input name="textfield2" type="text" size="8" />&nbsp; 起始时间
+<input name="text" type = "text" size="8" height="18">
+终止时间
+			<input name="text2" type = "text" size="8" height="18" />
+			&nbsp;
+			<input name="button" type = "button" value = "查询" class="shortButton" >
+		  &nbsp;</td>
+        </tr>
+      </table>
+
+	
+	<table class="table"  cellpadding="6" cellspacing="0" width="66%" >
+	
+	<tr>
+		<td class="tableColumeHead">编号</td>
+		<td class="tableColumeHead">名称</td>
+		<td class="tableColumeHead">可容纳人数</td>
+		<td class="tableColumeHead">备注</td>
+		<td class="tableColumeHead">操作</td>
+	</tr>
+	<tr>
+		<td>001</td>
+		<td>A201</td>
+	  <td>50人</td>
+		<td>设备良好，无投影仪</td>
+		 
+		<td><input name="alter" type="button" class="shortButton" value="预约" onclick="location.href='meetingapply.html'" /></td>
+		
+	</tr>
+	<tr>
+		<td>002</td>
+		<td>A101</td>
+	  <td>80人</td>
+		<td>设备良好</td>
+		 
+		<td><input name="alter" type="button" class="shortButton" value="预约" onclick="msg('预约成功！')" /></td>
+		
+	</tr>
+	<tr>
+		<td>003</td>
+		<td>A110</td>
+	  <td>30人</td>
+		<td>设备良好</td>
+		 
+		<td><input name="alter" type="button" class="shortButton" value="预约" onclick="msg('预约成功！')" /></td>
+		
+	</tr>
+	<tr>
+		<td>004</td>
+		<td>A111</td>
+	  <td>100人</td>
+		<td>设备良好</td>
+		 
+		<td><input name="alter" type="button" class="shortButton" value="预约" onclick="msg('预约成功！')" /></td>
+		
+	</tr>
+	 <tr>
+    <td colspan="8" align="center">第1页　共1页　首页　上一页　下一页　尾页 &nbsp;转至
+      <select name="select" >
+        <option selected>1</option>
+      </select>
+页</td>
+</tr>
+
+	</table>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

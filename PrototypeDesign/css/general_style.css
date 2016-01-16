@@ -1,0 +1,284 @@
+﻿
+body{
+	background-color: #dbdbda;/*背景颜色*/
+	font-size:15px;/*网页整体字体大小*/
+	
+}
+.title{/*文本标题样式*/
+	color: #2c2b02;
+	font-family: 华文细黑;
+}
+
+.line{/*横线样式*/
+	
+	width:100%;
+	color:yellow;
+	border-color:yellow;
+	
+}
+
+.passage{/*通用passage格式*/
+	text-indent:2em;
+	text-align:left;
+	font-family:华文中宋;
+	
+	
+}
+
+/*cellpadding="10" cellspacing="0"加在每个表格的前面*/
+.table{/*通用表格样式*/
+	
+	background-color: #fefccc;
+	margin:0px auto;
+	font-size: 13px;
+	text-align:right;
+	
+}
+
+.table td{
+	border:1px gray solid;
+	
+}
+.tableHead{/*通用表头样式*/
+	text-align:center;
+	font-size: large;
+	color: black;
+	background-color: #dbdbda;
+	font-family: 方正姚体;
+	
+}
+.tableColumeHead{/*通用列头样式*/
+	background-color: #faf67c;
+	font-family: 黑体;
+	font-size: small;
+	
+	text-align:center;
+}
+
+.longerButton{/*更长的按钮样式*/
+	width: 150px;
+	height: 25px;
+	background-image:url('../images/longerButton.gif');
+	border-style:none;
+	color: #2a2900;
+	
+}
+.longButton{/*长按钮样式*/
+	width: 100px;
+	height: 25px;
+	background-image:url('../images/longButton.gif');
+	border-style:none;
+	color: #2a2900;	
+}
+.shortButton{/*短按钮样式*/
+	width: 60px;
+	height: 25px;
+	background-image:url('../images/shortButton.gif');
+	border-style:none;
+	color: #2a2900;
+}
+
+
+#head{/*网站头部样式*/
+	
+	background-image: url('../images/head_1000.jpg');
+	width:975px;
+	height: 120px;
+	margin: 0px auto;
+	background-color: gray;
+	}
+
+#nav{/*导航菜单容器样式*/
+	
+	margin:0px auto;
+	height: 30px;
+	background-color: #7d7a53;
+	width: 975px;
+	margin-top: 0px;
+}
+
+#content{/*内容容器样式 这个容器是最重要的大家在这里写原型*/
+	margin:0px auto;
+	height:390px;
+	width:975px;
+	background-color: #bfbfbf;
+	margin-top: 0px;
+	font-size: 13px;
+	
+}
+
+#bottom{/*底部样式*/
+	width: 975px;
+	height: 40px;
+	background-color: #faf743;
+	margin-top: 0px;
+	background-image: url('../images/bottom_1000.jpg');
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+
+
+/*中间的三个板块 上下左右都有5px的距离 这里饭三块只是个参考作用 实际上中间整个作为一个划分 根据原型功能需要再进行划分*/
+#left{/*左边容器样式*/
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #dbdbda;
+	width: 190px;
+	height: 790px;
+	float:left;
+}
+
+
+#middle{/*中间容器样式*/
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 400px;
+	height:790px;
+	background-color: #dbdbda;
+	float:left;
+	
+}
+#right{/*右边容器样式*/
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #dbdbda;
+	width: 190px;
+	height: 790px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+/*下拉菜单样式*/
+/*CSS Code for Menu Begin:*/ 
+/* Root = Horizontal, Secondary = Vertical */ 
+ul#navmenu {
+
+border: 0 none; 
+padding-top: 0px; 
+width: 500px; /*For KHTML*/ 
+list-style: none; 
+height: 24px; 
+
+margin-left: 40px;
+} 
+ul#navmenu li { 
+margin: 0; 
+border: 0 none; 
+padding: 0; 
+float: left; /*For Gecko*/ 
+display: inline; 
+list-style: none; 
+position: relative; 
+height: 24px; 
+} 
+ul#navmenu ul { 
+margin: 0; 
+border: 0 none; 
+padding: 0; 
+width: 160px; 
+list-style: none; 
+display: none; 
+position: absolute; 
+top: 24px; 
+left: 0; 
+} 
+ul#navmenu ul li { 
+float: none; /*For Gecko*/ 
+display: block !important;/*用于其他浏览器*/
+display: inline; /*For IE*/ 
+} 
+/* Root Menu */ 
+ul#navmenu a { 
+border: 1px solid #FFF; 
+border-right-color: #CCC; 
+border-bottom-color: #CCC; 
+padding: 0 6px; 
+float: none !important; /*For Opera*/ 
+float: left; /*For IE*/ 
+display: block; 
+background: #EEE; 
+color: #666; 
+font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: none; 
+height: auto !important; 
+height: 1%; /*For IE*/ 
+} 
+/* Root Menu Hover Persistence */ 
+ul#navmenu a:hover, 
+ul#navmenu li:hover a, 
+ul#navmenu li.iehover a { 
+background: #fcf400; /*第一级颜色*/
+color: #000; 
+} 
+/* 2nd Menu */ 
+ul#navmenu li:hover li a, 
+ul#navmenu li.iehover li a { 
+float: none; 
+background: #EEE; 
+color: #666; 
+} 
+/* 2nd Menu Hover Persistence */ 
+ul#navmenu li:hover li a:hover, 
+ul#navmenu li:hover li:hover a, 
+ul#navmenu li.iehover li a:hover, 
+ul#navmenu li.iehover li.iehover a { 
+background: #f6f158; /*第二级颜色*/
+color: #000; 
+} 
+/* 3rd Menu */ 
+ul#navmenu li:hover li:hover li a, 
+ul#navmenu li.iehover li.iehover li a { 
+background: #EEE; 
+color: #666; 
+} 
+/* 3rd Menu Hover Persistence */ 
+ul#navmenu li:hover li:hover li a:hover, 
+ul#navmenu li:hover li:hover li:hover a, 
+ul#navmenu li.iehover li.iehover li a:hover, 
+ul#navmenu li.iehover li.iehover li.iehover a { 
+background: #f6f38f; /*第三级颜色*/
+color: #000; 
+} 
+/* 4th Menu */ 
+ul#navmenu li:hover li:hover li:hover li a, 
+ul#navmenu li.iehover li.iehover li.iehover li a { 
+background: #EEE; 
+color: #666; 
+} 
+/* 4th Menu Hover */ 
+ul#navmenu li:hover li:hover li:hover li a:hover, 
+ul#navmenu li.iehover li.iehover li.iehover li a:hover { 
+background: #CCC; 
+color: #FFF; 
+} 
+ul#navmenu ul ul, 
+ul#navmenu ul ul ul { 
+display: none; 
+position: absolute; 
+top: 0; 
+left: 160px; 
+} 
+/* Do Not Move - Must Come Before display:block for Gecko */ 
+ul#navmenu li:hover ul ul, 
+ul#navmenu li:hover ul ul ul, 
+ul#navmenu li.iehover ul ul, 
+ul#navmenu li.iehover ul ul ul { 
+display: none; 
+} 
+ul#navmenu li:hover ul, 
+ul#navmenu ul li:hover ul, 
+ul#navmenu ul ul li:hover ul, 
+ul#navmenu li.iehover ul, 
+ul#navmenu ul li.iehover ul, 
+ul#navmenu ul ul li.iehover ul { 
+display: block; 
+} 
+

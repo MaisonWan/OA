@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<title>OA办公系统-系统管理</title>
+</head>
+<style type="text/css">
+<!--
+.style1 {font-family: Arial, Helvetica, sans-serif}
+-->
+</style>
+<script language="javascript">
+	initial();
+</script>
+
+<form name="myForm">
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+	<div style="color: #FFFFFF; padding-top: 4px;">当前位置->角色管理</div>
+	<hr class="line">
+	
+		<table class="table" cellpadding="4" cellspacing="0">
+			<thead class="tableHead">角色管理</thead>
+			<tr>
+				<a href="addNewRole.html">添加新的角色</a>  /  
+				<a href="alterProperty.html">修改权限</a>
+			</tr>
+			<tr align="center"  >
+				<td class="tableColumeHead" width="106"><span class="style1">角色编号</span></td>
+				<td class="tableColumeHead" width="118"><span class="style1">角色名</span></td>
+				<td class="tableColumeHead" width="272" align="center"><span class="style1">权  限</span></td>
+				<td colspan="2" class="tableColumeHead" width="197"><span class="style1">操  作</span></td>
+		 	</tr>
+		  	<tr align="center"  >
+				<td width="106"><span class="style1">00001</span></td>
+				<td width="118"><span class="style1">普通员工</span></td>
+				<td width="272"><span class="style1">个人办公管理</span></td>
+				<td width="197"><span class="style1">
+				<a href="alertRole.html">修改</a>  /  
+				<a href="roleManage2.html" onclick="javascript:alert('确认删除')">删除</a>
+				</span></td>
+		 	</tr>
+			<tr align="center"  >
+				<td width="106"><span class="style1">00002</span></td>
+				<td width="118"><span class="style1">部门经理</span></td>
+				<td width="272"><span class="style1">个人办公管理,员工信息管理,部门管理</span></td>
+				<td width="197"><span class="style1">
+				<a href="alertRole.html">修改</a>  /  
+				<a href="roleManage2.html" onclick="javascript:alert('确认删除')">删除</a>
+				</span></td>
+		 	</tr>
+			<tr align="center"  >
+				<td width="106"><span class="style1">00003</span></td>
+				<td width="118"><span class="style1">系统管理员</span></td>
+				<td width="272"><span class="style1">个人办公管理,会议管理,系统管理</span></td>
+				<td width="197"><span class="style1">
+				<a href="alertRole.html">修改</a>  /  
+				<a href="roleManage2.html" onclick="javascript:alert('确认删除')">删除</a>
+				</span></td>
+		 	</tr>
+			
+		</table>
+		<br>
+		<center>
+			<a>首页  </a>
+		  	<a>上一页  </a>
+		  	<a>下一页  </a>
+		  	<a>尾页</a>
+			<a> 转至</a>
+		   <select style="width:60px">
+			   <option selected>1</option>
+			</select> 
+		</center>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</form>
+</html>

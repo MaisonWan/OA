@@ -1,0 +1,92 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/dtree.css"/>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<script type="text/javascript" src="../js/tree.js"></script>
+<title>OA办公系统-发件箱</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+</div>
+<div id="content" style="font-size:13px ">
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->收件箱</div>
+<hr class="line">
+<p style="margin-right:200px; text-align:right">发件人姓名
+  <input name="search" type="text" id="search" size="10" /> 
+   <input class="shortButton" type="button" value="查询" id="searchButton" name="searchButton" />
+</p>
+<table align="center" class="table" cellpadding="4" cellspacing="0">
+	<tr>
+	<td width="100" class="tableColumeHead">&nbsp;</td>
+      <td width="100" class="tableColumeHead">标题</td>
+      <td width="130" class="tableColumeHead">内容</td>
+      <td width="80" class="tableColumeHead">发件人</td>
+      <td width="70" class="tableColumeHead">日期</td>
+      <td width="80" class="tableColumeHead">时间</td>
+      <td width="70" class="tableColumeHead">操作</td>
+    </tr>
+    <tr>
+	<td rowspan="10" style="text-align:left; vertical-align:top;"><div class="dtree">
+	<script type="text/javascript">
+		<!--
+
+		d = new dTree('d');
+
+		d.add(0,-1,'在线信息',"otherInfo.html");
+		d.add(1,0,'新建留言',"new.html");
+		d.add(2,0,'收件箱','inbox.html');
+		d.add(3,0,'草稿箱','draftbox.html');
+		d.add(4,0,'发件箱','outbox.html');
+		
+		document.write(d);
+		//-->
+	</script>
+</div></td>
+      <td>打扫卫生</td>
+      <td>开会研究打扫卫生</td>
+      <td>斯蒂芬</td>
+      <td>2009-8-1</td>
+      <td>7：00-9：00</td>
+      <td>删除</td>
+    </tr>
+    <tr>
+      <td>完成登陆验证模块</td>
+      <td>需要完成此任务</td>
+      <td>杰克逊</td>
+      <td>2009-7-31</td>
+      <td>13：00-15：30</td>
+      <td>删除</td>
+    </tr>
+    <tr>
+      <td>接待来访人员</td>
+      <td>去飞机场去接来访人员</td>
+      <td>杰克逊</td>
+      <td>2009-7-31</td>
+      <td>8：00-10：00</td>
+      <td>删除</td>
+    </tr>
+    <tr>
+      <td>交流经验</td>
+      <td>与同组人员交流</td>
+      <td>斯蒂芬</td>
+      <td>2009-7-30</td>
+      <td>15:30-18:00</td>
+      <td>删除</td>
+    </tr>
+  </table>
+  <div style="text-align:center ">
+  	第1页　共1页　<a href="inbox.html">首页</a>　<a href="inbox.html">上一页</a>　下一页　尾页 转至
+   <select size="1" onChange="window.location = this.options(this.selectedIndex).value">
+   <option selected>1</option>
+   </select> 
+   页 　</div>
+</div>
+  
+</div>
+<div id="bottom"></div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="CARD" schema="OA"
+		class="com.icss.hit.hibernate.vo.Card">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">CARD_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="CARD_TYPE" schema="OA"
+		class="com.icss.hit.hibernate.vo.CardType">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">CARD_TYPE_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="FILES" schema="OA"
+		class="com.icss.hit.hibernate.vo.Files">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">FILES_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="FILE_FOLDER" schema="OA"
+		class="com.icss.hit.hibernate.vo.FileFolder">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">FILE_FOLDER_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="MEETING" schema="OA"
+		class="com.icss.hit.hibernate.vo.Meeting">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">MEETING_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="MEETING_ATTEND" schema="OA"
+		class="com.icss.hit.hibernate.vo.MeetingAttend">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">MEETING_ATTEND_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="MESSAGE" schema="OA"
+		class="com.icss.hit.hibernate.vo.Message">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">MESSAGE_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="RECEIVER_INFO" schema="OA"
+		class="com.icss.hit.hibernate.vo.ReceiverInfo">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">RECEIVER_INFO_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="ROOM" schema="OA"
+		class="com.icss.hit.hibernate.vo.Room">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">ROOM_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="ROOM_REG" schema="OA"
+		class="com.icss.hit.hibernate.vo.RoomReg">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">ROOM_REG_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SCHEDULE" schema="OA"
+		class="com.icss.hit.hibernate.vo.Schedule">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SCHEDULE_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SCHEDULE_CONFIG" schema="OA"
+		class="com.icss.hit.hibernate.vo.ScheduleConfig">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SCHEDULE_CONFIG_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SYS_DEPT" schema="OA"
+		class="com.icss.hit.hibernate.vo.SysDept">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SYS_DEPT_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SYS_POWER" schema="OA"
+		class="com.icss.hit.hibernate.vo.SysPower">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SYS_POWER_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SYS_POWER_TYPE" schema="OA"
+		class="com.icss.hit.hibernate.vo.SysPowerType">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SYS_POWER_TYPE_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SYS_ROLE" schema="OA"
+		class="com.icss.hit.hibernate.vo.SysRole">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SYS_ROLE_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SYS_ROLE_POWER" schema="OA"
+		class="com.icss.hit.hibernate.vo.SysRolePower">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SYS_ROLE_POWER_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SYS_USER" schema="OA"
+		class="com.icss.hit.hibernate.vo.SysUser">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SYS_USER_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+	<table name="SYS_POSITION" schema="OA"
+		class="com.icss.hit.hibernate.vo.SysPosition">
+		<primary-key>
+			<generator class="sequence">
+				<param name="sequence">SYS_POSITION_SEQ</param>
+			</generator>
+		</primary-key>
+	</table>
+</hibernate-reverse-engineering>

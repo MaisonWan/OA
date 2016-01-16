@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="loginForm" type="com.icss.hit.struts.form.LoginForm" />
+    <form-bean name="userInfoUpdatedForm" type="com.icss.hit.struts.form.UserInfoUpdatedForm" />
+    <form-bean name="cardTypeAddForm" type="com.icss.hit.struts.form.CardTypeAddForm" />
+    <form-bean name="searchOtherInfoForm" type="com.icss.hit.struts.form.SearchOtherInfoForm" />
+
+    <form-bean name="searchCardForm" type="com.icss.hit.struts.form.SearchCardForm" />
+
+    <form-bean name="modifyCardForm" type="com.icss.hit.struts.form.ModifyCardForm" />
+    <form-bean name="modifyPasswordForm" type="com.icss.hit.struts.form.ModifyPasswordForm" />
+    <form-bean name="searchShareUserForm" type="com.icss.hit.struts.form.SearchShareUserForm" />
+    <form-bean name="searchShareCardUserForm" type="com.icss.hit.struts.form.SearchShareCardUserForm" />
+
+    <form-bean name="addWordConfigForm" type="com.icss.hit.struts.form.AddWordConfigForm" />
+    <form-bean name="addWorkConfigForm" type="com.icss.hit.struts.form.AddWorkConfigForm" />
+
+    <form-bean name="allSearchWorkForm" type="com.icss.hit.struts.form.AllSearchWorkForm" />
+    <form-bean name="modifyWorkConfigForm" type="com.icss.hit.struts.form.ModifyWorkConfigForm" />
+
+	<form-bean name="addressInfoForm" type="com.icss.hit.struts.form.addressInfoForm" />
+    <form-bean name="searchInBoxForm" type="com.icss.hit.struts.form.SearchInBoxForm" />
+
+    <form-bean name="newUserMessageForm" type="com.icss.hit.struts.form.NewUserMessageForm" />
+
+    <form-bean name="addCardForm" type="com.icss.hit.struts.form.AddCardForm" />
+
+    <form-bean name="draftMessageForm" type="com.icss.hit.struts.form.DraftMessageForm" />
+
+    <form-bean name="fileUploadForm" type="com.icss.hit.struts.form.FileUploadForm" />
+
+    <form-bean name="addMeetingRoomForm" type="com.icss.hit.struts.form.AddMeetingRoomForm" />
+    <form-bean name="searchAvailableRoomForm" type="com.icss.hit.struts.form.SearchAvailableRoomForm" />
+
+
+    <form-bean name="roomRegistForm" type="com.icss.hit.struts.form.RoomRegistForm" />
+
+    <form-bean name="addDeptForm" type="com.icss.hit.struts.form.AddDeptForm" />
+    <form-bean name="modifyDeptForm" type="com.icss.hit.struts.form.ModifyDeptForm" />
+
+
+    <form-bean name="folderFunctionForm" type="com.icss.hit.struts.form.FolderFunctionForm" />
+
+	<form-bean name="addSysPowerTypeForm" type="com.icss.hit.struts.form.AddSysPowerTypeForm" />
+
+    <form-bean name="searchShareFileForm" type="com.icss.hit.struts.form.SearchShareFileForm" />
+    <form-bean name="launchMeetingForm" type="com.icss.hit.struts.form.LaunchMeetingForm" />
+
+    <form-bean name="addSysRoleForm" type="com.icss.hit.struts.form.AddSysRoleForm" />
+
+    <form-bean name="manageAllRoomsForm" type="com.icss.hit.struts.form.ManageAllRoomsForm" />
+    <form-bean name="alterRoomForm" type="com.icss.hit.struts.form.AlterRoomForm" />
+    <form-bean name="graphOutputForm" type="com.icss.hit.struts.form.GraphOutputForm" />
+	
+	<form-bean name="cardTypeDelForm" type="com.icss.hit.struts.form.CardTypeDelForm" />
+    <form-bean name="deleteDeptForm" type="com.icss.hit.struts.form.DeleteDeptForm" />
+
+    <form-bean name="changeInfoForm" type="com.icss.hit.struts.form.ChangeInfoForm" />
+    <form-bean name="confirmAddWorkerForm" type="com.icss.hit.struts.form.ConfirmAddWorkerForm" />
+
+    <form-bean name="deleteSysPowerForm" type="com.icss.hit.struts.form.DeleteSysPowerForm" />
+
+
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards>
+  	<forward name="NullLogin" path="/login.jsp"/>
+  </global-forwards>
+  <action-mappings >
+    <action
+      attribute="loginForm"
+      input="/login.jsp"
+      name="loginForm"
+      path="/Login"
+      scope="request"
+      type="com.icss.hit.struts.action.LoginAction">
+      <forward name="Login.error" path="/login.jsp" />
+      <forward
+        name="Login.succeed"
+        path="/Home.do"
+        redirect="true" />
+    </action>
+    <action path="/UserInfo" type="com.icss.hit.struts.action.UserInfoAction">
+      <forward name="UserInfo.error" path="/login/login.jsp" />
+      <forward name="UserInfo.succeed" path="/info/UserInfo.jsp" />
+    </action>
+
+	<action path="/OtherInfo" type="com.icss.hit.struts.action.OtherInfoAction">
+      <forward name="OtherInfo.error" path="/info/OtherInfo.jsp" />
+      <forward name="OtherInfo.succeed" path="/info/OtherInfo.jsp" />
+    </action>
+    
+    <action path="/userInfoUpdateAction" type="com.icss.hit.struts.action.UserInfoUpdateActionAction">
+      <forward name="userInfoUpdateAction.successd" path="/info/userInfoUpdated.jsp" />
+    </action>
+    <action
+      attribute="userInfoUpdatedForm"
+      input="/userInfoUpdateAction.do"
+      name="userInfoUpdatedForm"
+      path="/userInfoUpdated"
+      scope="request"
+      type="com.icss.hit.struts.action.UserInfoUpdatedAction">
+      <forward
+        name="userInfoUpdated.successd"
+        path="/UserInfo.do"
+        redirect="true" />
+      <forward
+        name="userInfoUpdatdfaild"
+        path="/info/UserInfo.jsp"
+        redirect="true" />
+    </action>
+    
+    <action path="/otherUserDetail" type="com.icss.hit.struts.action.OtherUserDetailAction">
+      <forward name="otherUserDetail.error" path="/login/login.jsp" />
+      <forward name="otherUserDetail.success" path="/info/otherUserDetail.jsp" />
+    </action>
+
+    <action path="/CardType" type="com.icss.hit.struts.action.CardTypeAction">
+      <forward name="cardType.error" path="/login.jsp" />
+      <forward name="cardType.success" path="/card/cardType.jsp" />
+    </action>
+    <action
+      attribute="cardTypeAddForm"
+      input="/CardType.do"
+      name="cardTypeAddForm"
+      path="/CardTypeAdd"
+      scope="request"
+      type="com.icss.hit.struts.action.CardTypeAddAction">
+      <forward
+        name="CardTypeAdd.error"
+        path="/CardType.do"
+        redirect="true" />
+      <forward
+        name="CardTypeAdd.success"
+        path="/CardType.do"
+        redirect="true" />
+    </action>
+
+    <action
+      attribute="searchOtherInfoForm"
+      input="/OtherInfo.do"
+      name="searchOtherInfoForm"
+      path="/SearchOtherInfo"
+      scope="request"
+      type="com.icss.hit.struts.action.SearchOtherInfoAction">
+      <forward name="SearchOtherInfo.succeed" path="/OtherInfo.do" />
+    </action>
+
+    <action
+      attribute="searchCardForm"
+      input="/selfCard.do"
+      name="searchCardForm"
+      path="/searchCard"
+      scope="request"
+      type="com.icss.hit.struts.action.SearchCardAction" >
+      <forward name="SearchCard.succeed" path="/selfCard.do" />
+      </action>
+    <action path="/selfCard" type="com.icss.hit.struts.action.SelfCardAction">
+      <forward name="selfCard.succeed" path="/card/selfCard.jsp" />
+    </action>
+
+    
+    
+    <action path="/toModifyCard" type="com.icss.hit.struts.action.ToModifyCardAction">
+      <forward name="ToModifyCard.Null" path="/login.jsp" />
+      <forward name="ToModifyCard.succeed" path="/card/modifyCard.jsp" />
+      <forward name="ToModifyCard.faild" path="/card/selfCard.jsp" />
+    </action>
+    <action
+      attribute="modifyCardForm"
+      input="/toModifyCard.do"
+      name="modifyCardForm"
+      path="/modifyCard"
+      scope="request"
+      type="com.icss.hit.struts.action.ModifyCardAction">
+      <forward name="ModifyCard.faild" path="/toModifyCard.do" />
+      <forward name="ModifyCard.succeed" path="/selfCard.do" />
+    </action>
+    <action
+      attribute="modifyPasswordForm"
+      input="/Password.do"
+      name="modifyPasswordForm"
+      path="/ModifyPassword"
+      scope="request"
+      type="com.icss.hit.struts.action.ModifyPasswordAction">
+      <forward name="ModifyPassword.fail" path="/Password.do" />
+      <forward
+        name="ModifyPassword.succeed"
+        path="/UserInfo.do"
+        redirect="true" />
+      <forward name="ModifyPassword.error" path="/login.jsp" />
+    </action>
+    <action path="/Password" type="com.icss.hit.struts.action.PasswordAction">
+      <forward name="Password.succeed" path="/info/modifyPassword.jsp" />
+      <forward name="Password.error" path="/login.jsp" />
+    </action>
+
+    <action
+      attribute="searchShareCardUserForm"
+      input="/shareCard.do"
+      name="searchShareCardUserForm"
+      path="/searchShareCardUser"
+      scope="request"
+      type="com.icss.hit.struts.action.SearchShareCardUserAction">
+      <forward name="searchShareCardUser.succeed" path="/shareCard.do" />
+    </action>
+    <action path="/shareCard" type="com.icss.hit.struts.action.ShareCardAction">
+      <forward name="shareCard.succeed" path="/card/shareCard.jsp" />
+    </action>
+    <action path="/getShareCardById" input="/shareCard.do" type="com.icss.hit.struts.action.GetShareCardByIdAction">
+      <forward name="getShareCardById.succeed" path="/card/shareCardList.jsp" />
+    </action>
+    <action path="/Home" type="com.icss.hit.struts.action.HomeAction">
+      <forward name="Home.error" path="/login.jsp" />
+      <forward name="Home.succeed" path="/home/home.jsp" />
+    </action>
+
+    <action path="/newWorkConfig" type="com.icss.hit.struts.action.NewWorkConfigAction">
+      <forward name="NewWorkConfig.succeed" path="/work/addWorkConfig.jsp" />
+    </action>
+    <action
+      attribute="addWorkConfigForm"
+      input="/newWorkConfig.do"
+      name="addWorkConfigForm"
+      path="/addWorkConfig"
+      scope="request"
+      type="com.icss.hit.struts.action.AddWorkConfigAction">
+      <forward name="AddWorkConfig.succeed" path="/WorkPlan.do" />
+      <forward name="AddWorkConfig.faild" path="/newWorkConfig.do" />
+    </action>
+    
+    
+
+
+    <action path="/authorizedUser" type="com.icss.hit.struts.action.AuthorizedUserAction">
+      <forward name="authorizedUser.succeed" path="/work/authorizedUser.jsp" />
+    </action>
+    <action path="/deleteAuthorizedUser" type="com.icss.hit.struts.action.DeleteAuthorizedUserAction">
+      <forward name="deleteAuthorizedUser.succeed" path="/work/authorizedUser.jsp" />
+    </action>
+    <action path="/configWork" type="com.icss.hit.struts.action.ConfigWorkAction">
+      <forward name="configWork.succeed" path="/work/configWork.jsp" />
+    </action>
+    <action path="/authorize" type="com.icss.hit.struts.action.AuthorizeAction">
+      <forward name="authorize.succeed" path="/work/configWork.jsp" />
+    </action>
+    
+    <action path="/WorkPlan" type="com.icss.hit.struts.action.WorkPlanAction">
+      <forward name="WorkPlan.succeed" path="/work/workPlan.jsp" />
+    </action>
+    <action path="/WorkPlanDetail" type="com.icss.hit.struts.action.WorkPlanDetailAction">
+      <forward name="WorkPlanDetail.error" path="/work/workPlan.jsp" />
+      <forward name="WorkPlanDetail.succeed" path="/work/planDetail.jsp" />
+    </action>
+    <action path="/canlenderSearch" type="com.icss.hit.struts.action.CanlenderSearchAction">
+      <forward name="canlenderSearch.successd" path="/work/workPlanSchedule.jsp" />
+      <forward name="canlenderSearch.fail" path="/work/canlenderSearch.jsp" />
+    </action>
+    <action path="/monthSearch" type="com.icss.hit.struts.action.MonthSearchAction">
+      <forward name="monthSearch.successd" path="/work/monthWorkSchedule.jsp" />
+      <forward name="monthSearch.fail" path="/work/canlenderSearch.jsp" />
+    </action>
+
+    <action path="/DeleteWorkPlan" type="com.icss.hit.struts.action.DeleteWorkPlanAction">
+      <forward
+        name="DeleteWorkPlan.succeed"
+        path="/WorkPlan.do"
+        redirect="true" />
+    </action>
+    <action
+      attribute="allSearchWorkForm"
+      input="/SearchPlan.do"
+      name="allSearchWorkForm"
+      path="/AllSearchWork"
+      scope="request"
+      type="com.icss.hit.struts.action.AllSearchWorkAction">
+      <forward name="SearchWork.succeed" path="/SearchPlan.do" />
+    </action>
+    <action path="/SearchPlan" type="com.icss.hit.struts.action.SearchPlanAction">
+      <forward name="SearchPlan.succeed" path="/work/allSearchWork.jsp" />
+    </action>
+
+
+    <action path="/workList" type="com.icss.hit.struts.action.WorkListAction">
+      <forward name="workList.succeed" path="/work/workList.jsp" />
+    </action>
+    <action path="/planList" type="com.icss.hit.struts.action.PlanListAction">
+      <forward name="planList.succeed" path="/work/planList.jsp" />
+    </action>
+    <action path="/planListMore" type="com.icss.hit.struts.action.PlanListMoreAction">
+      <forward name="planListMore.succeed" path="/work/planListMore.jsp" />
+    </action>
+    <action path="/readPlan" type="com.icss.hit.struts.action.ReadPlanAction">
+      <forward name="readPlan.succeed" path="/work/planDetails.jsp" />
+      <forward name="readPlan.failed" path="/work/planDetails.jsp" />
+    </action>
+
+
+    <action path="/toModifyWorkConfig" type="com.icss.hit.struts.action.ToModifyWorkConfigAction">
+      <forward name="ToModifyWorkConfig.faild" path="/WorkPlan.do" />
+      <forward name="ToModifyWorkConfig.succeed" path="/work/modifyWorkConfig.jsp" />
+    </action>
+    <action
+      attribute="modifyWorkConfigForm"
+      input="/toModifyWorkConfig.do"
+      name="modifyWorkConfigForm"
+      path="/modifyWorkConfig"
+      scope="request"
+      type="com.icss.hit.struts.action.ModifyWorkConfigAction">
+      <forward name="ModifyWorkConfig.faild" path="/toModifyWorkConfig.do" />
+      <forward name="ModifyWorkConfig.succeed" path="/WorkPlan.do" />
+    </action>
+    
+
+    <action path="/addressInfo" type="com.icss.hit.struts.action.AddressInfoAction">
+      <forward name="addressInfo.successd" path="/address/address.jsp" />
+      <forward name="addressInfo.fail" path="/address/address.jsp" />
+    </action>
+    <action
+      attribute="addressInfoForm"
+      input="/addressInfo.do"
+      name="addressInfoForm"
+      path="/addressinfoSend"
+      scope="request"
+      type="com.icss.hit.struts.action.AddressinfoSendAction">
+      <forward name="addressinfoSend.successd" path="/addressInfo.do" />
+    </action>
+    <action
+      attribute="searchOtherInfoForm"
+      input="/OtherInfo.do"
+      name="searchOtherInfoForm"
+      path="/OtherInfoPDF"
+      scope="request"
+      type="com.icss.hit.struts.action.OtherInfoPDFAction">
+      <forward
+        name="OtherInfoPDF.error"
+        path="/OtherInfo.do"
+        redirect="true" />
+      <forward
+        name="OtherInfoPDF.succeed"
+        path="/OtherInfo.do"
+        redirect="true" />
+    </action>
+    <action
+      attribute="addressInfoForm"
+      input="/addressInfo.do"
+      name="addressInfoForm"
+      path="/excelExport"
+      scope="request"
+      type="com.icss.hit.struts.action.ExcelExportAction">
+      <forward name="ExcelExport.succussd" path="/addressInfo.do" />
+      <forward name="ExcelExport.fail" path="/addressInfo.do" />
+    </action>
+    <action path="/NewMessage" type="com.icss.hit.struts.action.NewMessageAction">
+      <forward name="NewMessage.succeed" path="/message/newMessage.jsp" />
+    </action>
+
+    <action path="/completePlan" type="com.icss.hit.struts.action.CompletePlanAction">
+      <forward name="completePlan.planListMore.succeed" path="/work/planListMore.jsp" />
+      <forward name="completePlan.planList.succeed" path="/work/planList.jsp" />
+    </action>
+    <action path="/deletePlan" type="com.icss.hit.struts.action.DeletePlanAction">
+      <forward name="deletePlan.planList.succeed" path="/work/planList.jsp" />
+      <forward name="deletePlan.planListMore.succeed" path="/work/planListMore.jsp" />
+    </action>
+    <action path="/inBox" type="com.icss.hit.struts.action.InBoxAction">
+      <forward name="inBox.succeed" path="/message/inBox.jsp" />
+      <forward name="inbox.succeed" path="/message/inBox.jsp" />
+    </action>
+    <action
+      attribute="searchInBoxForm"
+      input="/form/searchInBox.jsp"
+      name="searchInBoxForm"
+      path="/searchInBox"
+      scope="request"
+      type="com.icss.hit.struts.action.SearchInBoxAction">
+      <forward name="searchInBox.succeed" path="/inBox.do" />
+      <forward name="searchInBox.failed" path="/inBox.do" />
+    </action>
+    <action path="/inBoxDetails" type="com.icss.hit.struts.action.InBoxDetailsAction">
+      <forward name="inBoxDetails.succeed" path="/message/inBoxDetails.jsp" />
+      <forward name="inBoxDetails.failed" path="/message/inBoxDetails.jsp" />
+    </action>
+
+    <action
+      attribute="newUserMessageForm"
+      input="/NewMessage.do"
+      name="newUserMessageForm"
+      path="/newUserMessage"
+      scope="request"
+      type="com.icss.hit.struts.action.NewUserMessageAction">
+      <forward
+        name="newUserMessage.succeed"
+        path="/outbox.do"
+        redirect="true" />
+    </action>
+
+    <action path="/newCard" type="com.icss.hit.struts.action.NewCardAction">
+      <forward name="NewCard.succeed" path="/card/addCard.jsp" />
+    </action>
+    <action
+      attribute="addCardForm"
+      input="/newCard.do"
+      name="addCardForm"
+      path="/addCard"
+      scope="request"
+      type="com.icss.hit.struts.action.AddCardAction">
+      <forward name="AddCard.succeed" path="/selfCard.do" />
+      <forward name="AddCard.faild" path="/newCard.do" />
+    </action>
+
+    <action path="/draftBox" type="com.icss.hit.struts.action.DraftBoxAction">
+      <forward name="draftBox.successd" path="/message/draftBox.jsp" />
+      <forward name="draftBox.fail" path="/message/draftBox.jsp" />
+    </action>
+
+    <action path="/MyFile" type="com.icss.hit.struts.action.MyFileAction">
+      <forward name="MyFile.succeed" path="/filepage/myFile.jsp" />
+    </action>
+
+
+    <action path="/outbox" type="com.icss.hit.struts.action.OutboxAction">
+      <forward name="Outbox.succeed" path="/message/outbox.jsp" />
+    </action>
+
+
+
+    <action path="/deleteInBoxMessage" type="com.icss.hit.struts.action.DeleteInBoxMessageAction">
+      <forward name="deleteInBoxMessage.failed" path="/inBox.do" />
+      <forward name="deleteInBoxMessage.succeed" path="/inBox.do" />
+    </action>
+    
+
+    <action path="/FolderDetail" type="com.icss.hit.struts.action.FolderDetailAction">
+      <forward
+        name="FolderDetail.error"
+        path="/MyFile.do"
+        redirect="true" />
+      <forward name="FolderDetail.succeed" path="/filepage/folderDetail.jsp" />
+    </action>
+    <action path="/FileUpload" type="com.icss.hit.struts.action.FileUploadAction">
+      <forward name="FileUpload.succeed" path="/filepage/fileUpload.jsp" />
+      <forward
+        name="FileUpload.error"
+        path="/MyFile.do"
+        redirect="true" />
+    </action>
+    <action path="/FileUploadProcess" type="com.icss.hit.struts.action.FileUploadProcessAction">
+      <forward
+        name="FileUploadProcess.error"
+        path="/FileUpload.do"
+        redirect="true" />
+      <forward name="FileUploadProcess.succeed" path="/FolderDetail.do" />
+    </action>
+
+    <action path="/DeleteFile" type="com.icss.hit.struts.action.DeleteFileAction">
+      <forward
+        name="DeleteFile.succeed"
+        path="/FolderDetail.do"
+        redirect="true" />
+      <forward
+        name="DeleteFile.error"
+        path="/MyFile.do"
+        redirect="true" />
+    </action>
+
+    <action
+      attribute="draftMessageForm"
+      input="/draftBox.do"
+      name="draftMessageForm"
+      path="/draftMessage"
+      scope="request"
+      type="com.icss.hit.struts.action.DraftMessageAction">
+      <forward name="draftMessage.fail" path="/draftBox.do" />
+      <forward name="draftMessage.Asuccessd" path="/message/alertDraftMessage.jsp" />
+      <forward name="draftMessage.Dsuccessd" path="/draftBox.do" />
+    </action>
+    <action
+      attribute="newUserMessageForm"
+      input="/draftMessage.do"
+      name="newUserMessageForm"
+      path="/messageAfterAlter"
+      scope="request"
+      type="com.icss.hit.struts.action.MessageAfterAlterAction">
+      <forward name="messageAfterAlter.succussd" path="/draftBox.do" />
+      <forward name="messageAfterAlter.fail" path="/draftBox.do" />
+    </action>
+
+
+    <action
+      attribute="roomRegistForm"
+      input="/roomRedirect.do"
+      name="roomRegistForm"
+      path="/roomRegist"
+      scope="request"
+      type="com.icss.hit.struts.action.RoomRegistAction">
+      <forward name="roomRegist.fail" path="/registerMeetingRoomLog.do" />
+      <forward name="roomRegist.successd" path="/registerMeetingRoomLog.do" />
+    </action>
+    <action path="/roomRedirect" type="com.icss.hit.struts.action.RoomRedirectAction">
+      <forward name="roomRedirect.fail" path="/login.jsp" />
+      <forward name="roomRedirect.successd" path="/meeting/roomRegist.jsp" />
+    </action>
+
+
+    <action path="/newDept" type="com.icss.hit.struts.action.NewDeptAction">
+      <forward name="NewDept.succeed" path="/dept/addDept.jsp" />
+    </action>
+    <action
+      attribute="addDeptForm"
+      input="/newDept.do"
+      name="addDeptForm"
+      path="/addDept"
+      scope="request"
+      type="com.icss.hit.struts.action.AddDeptAction">
+      <forward name="AddDept.succeed" path="/deptList.do" />
+      <forward name="AddDept.faild" path="/newDept.do" />
+    </action>
+    <action path="/deptList" type="com.icss.hit.struts.action.DeptListAction">
+      <forward name="DeptList.succeed" path="/dept/deptList.jsp" />
+    </action>
+    <action path="/toModifyDept" type="com.icss.hit.struts.action.ToModifyDeptAction">
+      <forward name="ToModifyDept.succeed" path="/dept/modifyDept.jsp" />
+      <forward name="ToModifyDept.error" path="/modifyDept.do" />
+    </action>
+    <action
+      attribute="modifyDeptForm"
+      input="/dept/modifyDept.jsp"
+      name="modifyDeptForm"
+      path="/modifyDept"
+      scope="request"
+      type="com.icss.hit.struts.action.ModifyDeptAction">
+      <forward name="ModifyDept.succeed" path="/deptList.do" />
+      <forward name="ModifyDept.faild" path="/toModifyDept.do" />
+    </action>
+    <action
+      attribute="deleteDeptForm"
+      input="/deptList.do"
+      name="deleteDeptForm"
+      path="/deleteDept"
+      scope="request"
+      type="com.icss.hit.struts.action.DeleteDeptAction">
+      <forward name="DeleteDept.succeed" path="/deptList.do" />
+      <forward name="DeleteDept.faild" path="/deptList.do" />
+    </action>
+    
+
+    <action
+      attribute="folderFunctionForm"
+      input="/FolderDetail.do"
+      name="folderFunctionForm"
+      path="/FolderFunction"
+      scope="request"
+      type="com.icss.hit.struts.action.FolderFunctionAction">
+      <forward
+        name="FolderFunction.succeed"
+        path="/FolderDetail.do"
+        redirect="true" />
+    </action>
+
+
+    <action path="/registerMeetingRoomLog" type="com.icss.hit.struts.action.RegisterMeetingRoomLogAction">
+      <forward name="registerMeetingRoomLog.succeed" path="/meeting/registerMeetingRoomLog.jsp" />
+      <forward name="registerMeetingRoomLog.failed" path="/meeting/registerMeetingRoomLog.jsp" />
+    </action>
+    <action path="/cancilReg" type="com.icss.hit.struts.action.CancilRegAction">
+      <forward name="cancilReg.succeed" path="/registerMeetingRoomLog.do" redirect="true"/>
+      <forward name="cancilReg.failed" path="//registerMeetingRoomLog.do" />
+    </action>
+    <action path="/registerMeetingRoomLogDetails" type="com.icss.hit.struts.action.RegisterMeetingRoomLogDetailsAction">
+      <forward name="registerMeetingRoomLogDetails.succeed" path="/meeting/registerMeetingRoomLogDetails.jsp" />
+      <forward name="registerMeetingRoomLogDetails.failed" path="/meeting/registerMeetingRoomLogDetails.jsp" />
+    </action>
+
+    <action
+      path="/NewMeetingRoom"
+      type="com.icss.hit.struts.action.NewMeetingRoomAction"
+      validate="false">
+      <forward name="newMeetingRoom.success" path="/meeting/addMeetingRoom.jsp" />
+      <forward name="newMeetingRoom.error" path="/login.jsp" />
+    </action>
+    <action
+      attribute="addMeetingRoomForm"
+      input="/NewMeetingRoom.do"
+      name="addMeetingRoomForm"
+      path="/AddMeetingRoom"
+      scope="request"
+      type="com.icss.hit.struts.action.AddMeetingRoomAction">
+      <forward name="addMeetingRoom.success" path="/meeting/addMeetingRoom.jsp" />
+      <forward name="addMeetingRoom.error" path="/meeting/addMeetingRoom.jsp" />
+    </action>
+
+    <action path="/newSysPowerType" type="com.icss.hit.struts.action.NewSysPowerTypeAction">
+      <forward name="NewSysPowerType.succeed" path="/power/addSysPowerType.jsp" />
+    </action>
+    <action
+      attribute="addSysPowerTypeForm"
+      input="/newSysPowerType.do"
+      name="addSysPowerTypeForm"
+      path="/addSysPowerType"
+      scope="request"
+      type="com.icss.hit.struts.action.AddSysPowerTypeAction">
+      <forward name="AddSysPower.succeed" path="/sysPowerList.do" />
+    </action>
+    <action path="/sysPowerList" type="com.icss.hit.struts.action.SysPowerListAction">
+      <forward name="SysPowerList.succeed" path="/power/sysPowerList.jsp" />
+    </action>
+    <action
+      attribute="deleteSysPowerForm"
+      input="/sysPowerList.do"
+      name="deleteSysPowerForm"
+      path="/deleteSysPower"
+      scope="request"
+      type="com.icss.hit.struts.action.DeleteSysPowerAction">
+      <forward name="DeleteSysPower.succeed" path="/sysPowerList.do" />
+      <forward name="DeleteSysPower.faild" path="/sysPowerList.do" />
+    </action>
+
+
+    <action
+      attribute="searchShareFileForm"
+      input="/ShareFile.do"
+      name="searchShareFileForm"
+      path="/SearchShareFile"
+      scope="request"
+      type="com.icss.hit.struts.action.SearchShareFileAction">
+      <forward
+        name="SearchShareFile.succeed"
+        path="/ShareFile.do"
+        redirect="true" />
+      <forward
+        name="SearchShareFile.error"
+        path="/ShareFile.do"
+        redirect="true" />
+    </action>
+    <action path="/ShareFile" type="com.icss.hit.struts.action.ShareFileAction">
+      <forward name="ShareFile.succeed" path="/filepage/searchShareFile.jsp" />
+    </action>
+
+    <action path="/meetingOrder" type="com.icss.hit.struts.action.MeetingOrderAction">
+      <forward name="meetingOrder.failed" path="/meeting/meetingOrder.jsp" />
+      <forward name="meetingOrder.succeed" path="/meeting/meetingOrder.jsp" />
+    </action>
+    <action
+      attribute="searchAvailableRoomForm"
+      input="/meetingOrder.do"
+      name="searchAvailableRoomForm"
+      path="/searchAvailableRoom"
+      scope="request"
+      type="com.icss.hit.struts.action.SearchAvailableRoomAction">
+      <forward name="searchAvailableRoom.fail" path="/meetingOrder.do" />
+      <forward name="searchAvailableRoom.succeed" path="/meetingOrder.do" />
+    </action>
+
+   <action path="/deleteSendMes" type="com.icss.hit.struts.action.DeleteSendMesAction">
+	  <forward name="deleteSendMes.fail" path="/outbox.do" />
+      <forward name="deleteSendMes.successd" path="/outbox.do" />
+    </action>
+    <action path="/meetingAttend" type="com.icss.hit.struts.action.MeetingAttendAction">
+      <forward name="meetingAttend.succeed" path="/meeting/meetingAttend.jsp" />
+      <forward name="meetingAttend.failed" path="/meeting/meetingAttend.jsp" />
+    </action>
+    <action path="/meetingDetails" type="com.icss.hit.struts.action.MeetingDetailsAction">
+      <forward name="meetingDetails.failed" path="/meeting/meetingDetails.jsp" />
+      <forward name="meetingDetails.succeed" path="/meeting/meetingDetails.jsp" />
+    </action>
+    <action path="/meetingLaunch" type="com.icss.hit.struts.action.MeetingLaunchAction">
+      <forward name="meetingLaunch.successd" path="/meeting/meetingLaunch.jsp" />
+      <forward name="meetingLaunch.fail" path="/registerMeetingRoomLog.do" />
+    </action>
+    <action
+      attribute="launchMeetingForm"
+      input="/meetingLaunch.do"
+      name="launchMeetingForm"
+      path="/launchMeeting"
+      scope="request"
+      type="com.icss.hit.struts.action.LaunchMeetingAction" >
+      <forward name="launchMeeting.successd" path="/meetingAttend.do"/>
+      <forward name="launchMeeting.fail" path="/meetingAttend.do"/>
+    </action>
+
+    <action path="/manageRoom" type="com.icss.hit.struts.action.ManageRoomAction">
+      <forward name="manageRoom.successd" path="/adminmeeting/managerroom.jsp" />
+    </action>
+    <action
+      attribute="manageAllRoomsForm"
+      input="/manageRoom.do"
+      name="manageAllRoomsForm"
+      path="/manageAllRooms"
+      scope="request"
+      type="com.icss.hit.struts.action.ManageAllRoomsAction">
+      <forward name="manageAllRooms.redirect" path="/roomAlter.do" />
+      <forward name="manageAllRooms.fail" path="/manageRoom.do" />
+      <forward name="manageAllRooms.successd" path="/manageRoom.do" />
+    </action>
+    <action
+      attribute="alterRoomForm"
+      input="/roomAlter.do"
+      name="alterRoomForm"
+      path="/alterRoom"
+      scope="request"
+      type="com.icss.hit.struts.action.AlterRoomAction">
+      <forward name="alterRoom.successd" path="/manageRoom.do" />
+      <forward name="alterRoom.fail" path="/manageRoom.do" />
+    </action>
+    <action path="/roomAlter" type="com.icss.hit.struts.action.RoomAlterAction">
+      <forward name="roomAlter.successd" path="/adminmeeting/alterRoom.jsp" />
+    </action>
+    
+
+      
+      
+    <action path="/Logout" type="com.icss.hit.struts.action.LogoutAction">
+      <forward
+        name="Logout.succeed"
+        path="/login.jsp"
+        redirect="true" />
+    </action>
+    <action path="/newSysRole" type="com.icss.hit.struts.action.NewSysRoleAction">
+      <forward name="NewSysRole.succeed" path="/role/addSysRole.jsp" />
+    </action>
+    <action
+      attribute="addSysRoleForm"
+      input="/newSysRole.do"
+      name="addSysRoleForm"
+      path="/addSysRole"
+      scope="request"
+      type="com.icss.hit.struts.action.AddSysRoleAction" >
+      <forward
+        name="AddSysRole.succeed"
+        path="showRoles.do"
+        redirect="true" />
+    </action>
+
+    <action path="/UploadMeetingRecord" type="com.icss.hit.struts.action.UploadMeetingRecordAction">
+      <forward
+        name="UploadMeetingRecord.succeed"
+        path="meetingDetails.do"
+        redirect="true" />
+    </action>
+    <action path="/manageMeetingRoom" type="com.icss.hit.struts.action.ManageMeetingRoomAction">
+      <forward name="manageMeetingRoom.failed" path="/meeting/manageMeetingRoom.jsp" />
+      <forward name="manageMeetingRoom.succeed" path="/meeting/manageMeetingRoom.jsp" />
+    </action>
+    <action path="/handleUnsettledRoom" type="com.icss.hit.struts.action.HandleUnsettledRoomAction">
+      <forward name="handleUnsettledRoom.succeed" path="manageMeetingRoom.do" />
+    </action>
+    <action path="/meetingRegDetails" type="com.icss.hit.struts.action.MeetingRegDetailsAction">
+      <forward name="meetingRegDetails.succeed" path="/meeting/meetingRegDetails.jsp" />
+    </action>
+
+    <action path="/outputGraph" type="com.icss.hit.struts.action.OutputGraphAction">
+      <forward name="outputGraph.successd" path="/adminmeeting/outputGraph.jsp" />
+    </action>
+    <action
+      attribute="graphOutputForm"
+      input="/outputGraph.do"
+      name="graphOutputForm"
+      path="/graphOutput"
+      scope="request"
+      type="com.icss.hit.struts.action.GraphOutputAction">
+      <forward name="graphOutput.successd" path="/outputGraph.do" />
+    </action>
+    <action
+      attribute="graphOutputForm"
+      input="/outputGraph.do"
+      name="graphOutputForm"
+      path="/roomExcelExport"
+      scope="request"
+      type="com.icss.hit.struts.action.RoomExcelExportAction">
+      <forward name="roomExcelExport.successd" path="/outputGraph.do" />
+      <forward name="roomExcelExport.fail" path="/outputGraph.do" />
+    </action>
+
+
+    <action path="/AddNewFolder" type="com.icss.hit.struts.action.AddNewFolderAction">
+      <forward
+        name="AddNewFolder.error"
+        path="/MyFile.do"
+        redirect="true" />
+      <forward
+        name="AddNewFolder.succeed"
+        path="/MyFile.do"
+        redirect="true" />
+    </action>
+    <action
+      attribute="cardTypeDelForm"
+      input="/CardType.do"
+      name="cardTypeDelForm"
+      path="/cardTypeDel"
+      scope="request"
+      type="com.icss.hit.struts.action.CardTypeDelAction">
+      <forward name="CardTypeDel.fail" path="/CardType.do" />
+      <forward name="CardTypeDel.successd" path="/CardType.do" />
+    </action>
+    <action path="/roleArrange" type="com.icss.hit.struts.action.RoleArrangeAction">
+      <forward name="roleArrange.succeed" path="/role/roleArrange.jsp" />
+    </action>
+    <action path="/setUpRole" type="com.icss.hit.struts.action.SetUpRoleAction">
+      <forward name="setUpRole.succeed" path="/role/setUpRole.jsp" />
+      <forward name="setUpRole.failed" path="/roleArrage.do" />
+    </action>
+    <action path="/changeRole" type="com.icss.hit.struts.action.ChangeRoleAction">
+      <forward name="changeRole.failed" path="/roleArrange.do" />
+      <forward name="changeRole.succeed" path="/roleArrange.do" />
+    </action>
+
+    <action path="/setUpInfo" type="com.icss.hit.struts.action.SetUpInfoAction">
+      <forward name="setUpInfo.succeed" path="/role/setUpInfo.jsp" />
+    </action>
+    <action
+      attribute="changeInfoForm"
+      input="/form/changeInfo.jsp"
+      name="changeInfoForm"
+      path="/changeInfo"
+      scope="request"
+      type="com.icss.hit.struts.action.ChangeInfoAction" >
+      <forward name="changeInfo.succeed" path="/roleArrange.do" />
+      <forward name="changeInfo.failed" path="/roleArrange.do" />
+      </action>
+    <action path="/addWorker" type="com.icss.hit.struts.action.AddWorkerAction">
+      <forward name="addWorker.succeed" path="/role/addWorker.jsp" />
+    </action>
+    <action
+      attribute="confirmAddWorkerForm"
+      input="/addWorker.do"
+      name="confirmAddWorkerForm"
+      path="/confirmAddWorker"
+      scope="request"
+      type="com.icss.hit.struts.action.ConfirmAddWorkerAction">
+      <forward name="confirmAddWorker.succeed" path="/roleArrange.do" />
+    </action>
+
+    <action path="/readOutMessage" type="com.icss.hit.struts.action.ReadOutMessageAction">
+      <forward name="readOutMessage.fail" path="/outbox.do" />
+      <forward name="readOutMessage.successd" path="/message/outBoxDetails.jsp" />
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="com.icss.hit.struts.ApplicationResources" />
+</struts-config>
+

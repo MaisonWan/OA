@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<script>
+function msg(msg)
+{
+	alert(msg);
+}
+function goto(url)
+{
+window.location.replace(url)
+}
+</script>
+<title>OA办公系统-会议修改</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+<div id="content" style="font-size:13px;">
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->会议修改</div>
+<hr class="line"><div style="margin:'margin-center'">
+  <table width="650" align="center" cellpadding="0" cellspacing="0" id="myMessageTable">
+  <tr>
+  	<td colspan="2"  height="28" bgcolor="#faf67c"><strong>会议修改</strong></td>
+  </tr>
+  <tr>
+    <td width="100" height="30" align="right" bgcolor="#EBEBEB">会议编号:</td>
+    <td width="548" bgcolor="#EBEBEB">001<font color="#FF0000">*</font></td>
+  </tr>
+  <tr>
+    <td height="30" align="right" bgcolor="#EBEBEB">发起人:</td>
+    <td bgcolor="#EBEBEB"><input type="text" id="clerkName" name="clerkName" value="万里鹏" />
+    <font color="#FF0000"> *</font></td>
+  </tr>
+   <tr>
+    <td height="30" align="right" bgcolor="#EBEBEB">会议地点:</td>
+    <td bgcolor="#EBEBEB"><input type="text" id="clerkName" name="clerkName" value="A201" />
+    <font color="#FF0000"> *</font></td>
+  </tr>
+   <tr>
+     <td height="30" align="right" bgcolor="#EBEBEB">会议开始时间:</td>
+     <td bgcolor="#EBEBEB"><input name="messageTitle2" type="text" id="messageTitle2" value="2009-7-22 9：00" />
+      <font color="#FF0000">*</font></td>
+   </tr>
+   <tr>
+    <td height="30" align="right" bgcolor="#EBEBEB">会议结束时间:</td>
+    <td bgcolor="#EBEBEB"><input name="messageTitle" type="text" id="messageTitle" value="2009-7-22 9：00"  />
+      <font color="#FF0000">*</font></td>
+  </tr>
+   <tr>
+    <td height="30" align="right" bgcolor="#EBEBEB">参与人:</td>
+    <td bgcolor="#EBEBEB">      <select name="select" size="8" multiple="multiple">
+      <option>万里鹏</option>
+      <option>章小伟</option>
+      <option>许达</option>
+      <option>赵雅丽</option>
+      <option>朱金彪</option>
+      <option>刘龙茂</option>
+      <option>刘欢</option>
+      <option>赵颖申</option>
+      </select>
+    <font color="#FF0000"> *</font></td>
+  </tr>
+   
+  
+  <tr>
+    <td height="28" bgcolor="#EBEBEB">&nbsp;</td>
+    <td bgcolor="#EBEBEB">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="submit1" type="button" class="longButton" value="修改" onclick="msg('修改成功！');goto('managermeeting.html')"  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="submit12" type="button" class="longButton" value="返回" onclick="goto('managermeeting.html')" />&nbsp;	  </td>
+  </tr>
+</table>
+		
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

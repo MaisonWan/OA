@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<title>OA办公系统-日程安排</title>
+</head>
+<style type="text/css">
+<!--
+.style1 {font-family: Arial, Helvetica, sans-serif}
+-->
+</style>
+<script language="javascript">
+	function commission(a)
+	{
+		alert(a);
+	}
+	function changeDept(a)
+	{
+		if(a == "科技部")window.location = "config.html";
+		else if(a == "研发部")window.location = "config3.html";
+		else if(a == "销售部")window.location = "config4.html";
+	}
+</script>
+
+<form name="myForm">
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+	<div style="color: #FFFFFF; padding-top: 4px;">当前位置->代办设置</div>
+	<hr class="line">
+
+		<a href="config.html">代办设置</a> / 
+		<a href="config2.html">本人授权代办组</a>
+		
+	
+		<table class="table" cellpadding="4" cellspacing="0">
+	
+		<thead class="tableHead">代办设置</thead>
+			<tr align="right"  >
+				选择部门：<select name="Dept" onchange=changeDept(window.document.myForm.Dept.options[selectedIndex].value)>
+							  <option value="科技部">科技部
+							  <option value="研发部">研发部
+							  <option value="销售部">销售部
+							  </select>
+			
+			</tr>
+			<tr align="center"  >
+				<td class="tableColumeHead" width="96"><span class="style1">员工号</span></td>
+				<td class="tableColumeHead" width="108"><span class="style1">姓  名</span></td>
+				<td class="tableColumeHead" width="105"><span class="style1">部  门</span></td>
+				<td class="tableColumeHead" width="107"><span class="style1">职  位</span></td>
+				<td class="tableColumeHead" width="145"><span class="style1">联系方式</span></td>
+				<td class="tableColumeHead" width="124"><span class="style1">代办设置</span></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710101</td>
+				<td width="108">陈世美</td>
+				<td width="105">科技部</td>
+				<td width="107">部长经理</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a name="release" href="config7.html" onclick=commission("解除代办成功")>解除代办</a></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710102</td>
+				<td width="108">万的撒</td>
+				<td width="105">科技部</td>
+				<td width="107">部长经理</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a name="commission" href="config.html" onclick=commission("解除代办成功")>解除代办</a></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710103</td>
+				<td width="108">万丽玉</td>
+				<td width="105">科技部</td>
+				<td width="107">部长经理</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a herf="#" onclick="">解除代办</a></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710104</td>
+				<td width="108">赵亚</td>
+				<td width="105">科技部</td>
+				<td width="107">普通职工</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a herf="#" onclick="">授权代办</a></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710105</td>
+				<td width="108">陈家</td>
+				<td width="105">科技部</td>
+				<td width="107">普通职工</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a herf="#" onclick="">解除代办</a></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710106</td>
+				<td width="108">吴越</td>
+				<td width="105">科技部</td>
+				<td width="107">普通职工</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a herf="#" onclick="">授权代办</a></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710107</td>
+				<td width="108">吴晗</td>
+				<td width="105">科技部</td>
+				<td width="107">普通职工</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a herf="#" onclick="">解除代办</a></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710108</td>
+				<td width="108">罗成义</td>
+				<td width="105">科技部</td>
+				<td width="107">部长经理</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a herf="#" onclick="">授权代办</a></td>
+		  </tr>
+		  <tr align="center"   height="22px">
+				<td width="96">1073710109</td>
+				<td width="108">杨阳</td>
+				<td width="105">科技部</td>
+				<td width="107">普通职工</td>
+				<td width="145">1584567839</td>
+				<td width="124"><a herf="#" onclick="">解除代办</a></td>
+		  </tr>
+		  
+		</table>
+		
+		<br>
+		<center>
+			<a>首页  </a>
+		  	<a>上一页  </a>
+		  	<a href="config12.html">下一页  </a>
+		  	<a href="config12.html">尾页</a>
+		</center>
+	
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</form>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<title>OA办公系统-会议室申请</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+	<script>
+function goto(url)
+{
+   window.location.replace(url);
+}
+function msg(msg)
+{
+alert(msg);
+}
+</script>
+</div>
+<div id="content" style="height:auto; ">
+
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->会议室申请</div>
+<hr class="line"><div style="margin:'margin-center'">
+	<table width="387" class="table">
+	<thead class="tableHead">
+		会议室申请
+	</thead>
+		<tr  >
+			<td height="25">
+			会议名称：			</td>
+			<td width="191" >
+			<input name="text1" type="text" />		  </td>
+		</tr>
+		<tr  >
+			<td>
+			会议地点：			</td>
+			<td ><select name="select1">
+			<option selected>A101</option>
+			<option value="A102">A102</option>
+			<option value="A110">A110</option>
+			<option value="A201">A201</option>
+			</select>			</td>
+		</tr>
+		<tr>
+			<td  >
+			会议开始日期：			</td>
+		  <td   >
+			<select name="select2">
+			<option selected value="2009">2009</option>
+			<option value="2010">2010</option>
+			<option value="2011">2011</option>
+			<option value="2012">2012</option>
+			<option value="2013">2013</option>
+			</select>
+			年
+			<select name="select3">
+              <option selected="selected" value="1">01</option>
+              <option value="2">02</option>
+              <option value="3">03</option>
+              <option value="4">04</option>
+              <option value="5">05</option>
+            </select>
+		  月
+		  <select name="select4">
+            <option selected="selected" value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="30">30</option>
+          </select>
+		  日</td>
+		</tr>
+		<tr  >
+			<td>
+			会议开始时间：			</td>
+			<td  >
+			<select name="select5">
+			<option selected value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="12">12</option>
+			<option value="18">18</option>
+			</select>
+			时
+			<select name="select6">
+              <option selected="selected" value="1">01</option>
+              <option value="2">02</option>
+              <option value="3">03</option>
+              <option value="4">04</option>
+              <option value="59">59</option>
+            </select>
+		  分			</td>
+		</tr>
+		
+		<tr  >
+		<td>会议发起人：</td>
+		<td>万里鹏</td>
+		</tr>
+		<tr  >
+			<td height="25">
+			会议参与人数：			</td>
+			<td width="191" >
+			<input name="text1" type="text" />		  </td>
+		</tr>
+		
+		<td>
+		申请原因及设备要求：		</td>
+		<td><textarea name="textarea2" rows="8" cols="30"></textarea></td>
+		</tr>
+		<tr><td></td><td><input name="submit1" type="button" class="longButton" value="新增" onclick="msg('增加成功！');goto('managermeeting.html')"  /></td>
+		</tr>
+		<tfoot>
+		</tfoot>
+	</table>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

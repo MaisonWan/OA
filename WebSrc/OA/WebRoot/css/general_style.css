@@ -1,0 +1,440 @@
+div.suggestions {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background-color:white;
+	border: 1px solid black;
+	position:absolute;
+}
+div.suggestions div{
+	cursor:default;
+	padding:0px 3px;
+	font-size:13px;
+}
+div.suggestions div.current{
+	background-color:#fefccc;
+	color:black;
+}
+span.errorMessage{
+	font-size:13px;
+}
+.notFound{/*用于搜索不到的时候的信息显示*/
+	width: 300px;
+	height: 150px;
+	background-image: url('../images/notfound_1.png');
+	margin: 10px auto;
+	vertical-align: middle;
+}
+.notFoundText{
+	font-family: 方正姚体;
+	font-size: 20px;
+	text-align: center;	
+}
+
+.inputBox{/*输入框的样式*/
+	width: 120px;
+}
+.generalError{/*统一的错误信息样式*/
+	color: red;	
+}
+.link{
+	color: navy;
+	font-size: 15px;
+	outline-style: none;
+}
+
+.singleLink{
+	font-size: 16px;
+	color: navy;
+	font-family: 黑体;
+	
+}
+
+body{
+	background-color: #dbdbda;/*背景颜色*/
+	font-size:15px;/*网页整体字体大小*/
+	
+}
+	
+a{
+	text-decoration: none;	
+}
+a:hover{
+	text-decoration: underline;	
+}
+a:visited{
+	text-decoration: none;	
+}
+a:link{
+	text-decoration: none;	
+}
+a:active{
+	text-decoration: none;	
+}
+.title{/*文本标题样式*/
+	color: #2c2b02;
+	font-family: 华文细黑;
+}
+
+.line{/*横线样式*/
+	
+	width:100%;
+	color:yellow;
+	border-color:yellow;
+}
+
+.sign{/*主要用在左边的提醒框里的部门和用户名的显示*/
+	font-family:黑体;
+	color:navy;
+}
+
+.passage{/*通用passage格式*/
+	text-indent:2em;l
+	text-align:left;
+	font-family:华文中宋;
+	
+	
+}
+
+/*cellpadding="10" cellspacing="0"加在每个表格的前面*/
+.table{/*通用表格样式*/
+	background-color: #fefccc;
+	margin:0px auto;
+	font-size: 13px;
+	text-align:left;
+}
+.table td{
+	border:1px gray solid;
+	padding: 3px 6px 3px 6px;
+}
+
+
+.widerTable{/*通用更宽的表格样式*/
+	background-color: #fefccc;
+	margin:0px auto;
+	font-size: 13px;
+	text-align:left;
+}
+.widerTable td{
+	border:1px gray solid;
+	padding: 3px 20px 3px 20px;
+}
+
+
+.narrowerTable{/*通用更窄的表格样式*/
+	background-color: #fefccc;
+	margin:0px auto;
+	font-size: 13px;
+	text-align:left;
+}
+.narrowerTable td{
+	border:1px gray solid;
+	padding: 1px 3px 1px 3px;
+}
+
+.shorterTable{/*通用更矮的表格样式*/
+	background-color: #fefccc;
+	margin:0px auto;
+	font-size: 13px;
+	text-align:left;
+}
+.shorterTable td{
+	border:1px gray solid;
+	padding: 1px 15px 1px 15px;
+}
+
+.otherInfoTable{
+	background-color: #fefccc;
+	margin:0px auto;
+	font-size: 13px;
+	text-align:left;
+}
+.otherInfoTable td{
+	border:1px gray solid;
+	padding: 1px auto;
+}
+
+
+.tableHead{/*通用表头样式*/
+	text-align:center;
+	font-size: large;
+	color: black;
+	background-color: #dbdbda;
+	font-family: 方正姚体;
+	
+}
+.tableColumeHead{/*通用列头样式*/
+	background-color: #faf67c;
+	font-family: 黑体;
+	font-size: small;
+	text-align:center;
+}
+
+.longerButton{/*更长的按钮样式*/
+	width: 150px;
+	height: 25px;
+	background-image:url('../images/longerButton.gif');
+	border-style:none;
+	color: #2a2900;
+	
+}
+.longButton{/*长按钮样式*/
+	width: 100px;
+	height: 25px;
+	background-image:url('../images/longButton.gif');
+	border-style:none;
+	color: #2a2900;	
+}
+.shortButton{/*短按钮样式*/
+	width: 60px;
+	height: 25px;
+	background-image:url('../images/shortButton.gif');
+	border-style:none;
+	color: #2a2900;
+}
+
+
+#head{/*网站头部样式*/
+	
+	background-image: url('../images/head_1000_1.jpg');
+	width:975px;
+	height: 120px;
+	margin: 0px auto;
+	background-color: gray;
+}
+
+#nav{/*导航菜单容器样式*/
+	
+	margin:0px auto;
+	height: 30px;
+	background-color: #7d7a53;
+	width: 975px;
+	margin-top: 0px;
+	background-image: url('../images/nav_left_2.jpg');
+	background-repeat:no-repeat;
+	
+}
+
+#content{/*内容容器样式 这个容器是最重要的大家在这里写原型*/
+	margin:0px auto;
+	height:390px;
+	width:975px;
+	background-color: #bfbfbf;
+	margin-top: 0px;
+	font-size: 13px;
+	
+}
+
+#bottom{/*底部样式*/
+	width: 975px;
+	height: 50px;
+	background-color: #faf743;
+	margin-top: 0px;
+	background-image: url('../images/bottom_1000_2.jpg');
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+
+
+/*content中的容器 */
+.left{/*左边容器样式*/
+	width: 200px;
+	height: 345px;/*默认的高度为这个 但是如果内容长的话就在网页里根据具体情况来设定高度为自动*/
+	overflow: scroll;
+	margin-left: 5px; 
+	background-color: #bbbbbb; 
+	float: left; 
+	background-image:url('../images/left_background_2.gif');
+	background-repeat:no-repeat;
+	background-position: left bottom;
+}
+
+.left a{
+	border-style: none;	
+	width: 150px;
+	color: white;
+}
+.left a:visited{
+	color: navy;	
+}
+
+.left a img{
+	border-style: none;	
+	
+}
+#middleButton{/*中间按钮的样式 很特殊的样式*/
+	width: 10px;
+	height: 345px;
+	background-image:url('../images/middleButton2.gif');
+	float: left;
+}
+#middleButton span{
+	display:none;
+}
+#middleButton:hover .popBox{
+	display:block;
+	position: relative;
+	top:-10px;
+	left: 10px;
+	width:100px;
+	background-color:#424242;
+	color:#fff;
+	padding:10px;
+	z-index: 20;
+
+}
+
+
+.right{/*右边容器样式*/
+	background-color: #CCCCCC;
+	width: 750px;
+	height: 345px;/*默认的高度为这个（正好填满整个屏幕的高度） 但是如果内容长的话就在网页里根据具体情况来设定高度为自动*/
+	margin-left: 5px;  
+	float: left;
+	
+}
+
+
+
+
+
+
+
+/*下拉菜单样式 太伤了终于被我改兼容了*/
+/*CSS Code for Menu Begin:*/ 
+/* Root = Horizontal, Secondary = Vertical */ 
+ul#navmenu {
+
+border: 0 none; 
+padding-top: 0px; 
+width: 975px; /*For KHTML*/ 
+list-style: none; 
+height: 24px; 
+
+
+margin-left: 10px;
+margin-top: 0px;
+} 
+ul#navmenu li { 
+margin: 0; 
+border: 0 none; 
+padding: 0; 
+float: left; /*For Gecko*/ 
+display: inline; 
+list-style: none; 
+position: relative; 
+height: 24px; 
+
+
+} 
+ul#navmenu ul { 
+margin: 0; 
+border: 0 none; 
+padding: 0; 
+width: 160px; 
+list-style: none; 
+display: none; 
+position: absolute; 
+left: 0; 
+
+} 
+ul#navmenu ul li { 
+float: none; /*For Gecko*/ 
+display: block !important;/*用于其他浏览器*/
+display: inline; /*For IE*/ 
+margin-top: 0px;
+} 
+/* Root Menu */ 
+ul#navmenu a { 
+border: 1px solid #FFF; 
+border-right-color: #CCC; 
+border-bottom-color: #CCC; 
+padding: 0px 20px 0px 10px; 
+float: none !important; /*For Opera*/ 
+float: left; /*For IE*/ 
+display: block; 
+background: #EEE; 
+color: #666; 
+font: bold 12px/26px Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: none; 
+height: auto;
+margin-top: 0px;
+background-image:url('../images/menIcon.gif');
+background-repeat:no-repeat;
+background-position:right;
+
+} 
+/* Root Menu Hover Persistence */ 
+ul#navmenu a:hover, 
+ul#navmenu li:hover a, 
+ul#navmenu li.iehover a { 
+background: #fcf400; /*第一级颜色*/
+color: #000; 
+} 
+/* 2nd Menu */ 
+ul#navmenu li:hover li a, 
+ul#navmenu li.iehover li a { 
+float: none; 
+background: #EEE; 
+color: #666; 
+} 
+/* 2nd Menu Hover Persistence */ 
+ul#navmenu li:hover li a:hover, 
+ul#navmenu li:hover li:hover a, 
+ul#navmenu li.iehover li a:hover, 
+ul#navmenu li.iehover li.iehover a { 
+background: #f6f158; /*第二级颜色*/
+color: #000; 
+} 
+/* 3rd Menu */ 
+ul#navmenu li:hover li:hover li a, 
+ul#navmenu li.iehover li.iehover li a { 
+background: #EEE; 
+color: #666; 
+} 
+/* 3rd Menu Hover Persistence */ 
+ul#navmenu li:hover li:hover li a:hover, 
+ul#navmenu li:hover li:hover li:hover a, 
+ul#navmenu li.iehover li.iehover li a:hover, 
+ul#navmenu li.iehover li.iehover li.iehover a { 
+background: #f6f38f; /*第三级颜色*/
+color: #000; 
+} 
+/* 4th Menu */ 
+ul#navmenu li:hover li:hover li:hover li a, 
+ul#navmenu li.iehover li.iehover li.iehover li a { 
+background: #EEE; 
+color: #666; 
+} 
+/* 4th Menu Hover */ 
+ul#navmenu li:hover li:hover li:hover li a:hover, 
+ul#navmenu li.iehover li.iehover li.iehover li a:hover { 
+background: #CCC; 
+color: #FFF; 
+} 
+ul#navmenu ul ul, 
+ul#navmenu ul ul ul { 
+display: none; 
+position: absolute; 
+top: 0; 
+
+margin-top: 0px;
+} 
+/* Do Not Move - Must Come Before display:block for Gecko */ 
+ul#navmenu li:hover ul ul, 
+ul#navmenu li:hover ul ul ul, 
+ul#navmenu li.iehover ul ul, 
+ul#navmenu li.iehover ul ul ul { 
+display: none; 
+margin-top: 0px;
+} 
+ul#navmenu li:hover ul, 
+ul#navmenu ul li:hover ul, 
+ul#navmenu ul ul li:hover ul, 
+ul#navmenu li.iehover ul, 
+ul#navmenu ul li.iehover ul, 
+ul#navmenu ul ul li.iehover ul { 
+display: block; 
+} 
+

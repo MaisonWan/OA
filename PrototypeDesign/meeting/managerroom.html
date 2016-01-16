@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<script>
+function msg(msg)
+{
+alert(msg);
+}
+function goto(url)
+{
+   window.location.replace(url);
+}
+</script>
+<title>OA办公系统会议室管理</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+
+<div id="content" style="font-size:13px;">
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->会议室维护</div>
+<hr class="line"><div style="margin:'margin-center'">
+<table class="table"  cellpadding="6" cellspacing="0">
+<thead class="tableHead">会议室维护 <a href="roomadd.html">新增会议室</a><td width="630"></thead>
+        <tr>
+          <td>选择查询：
+		  	<select name="select_Factor" id="select" >
+              <option > </option>
+              <option value="dept_" selected>全部</option>
+              <option value="employee_Number">编号</option>
+              <option value="employee_Name">名称</option>
+              <option value="employee_Department">可容纳人数</option>
+              <option value="employee_Pho">备注</option>
+            </select>
+            &nbsp; 具体查询条件：<input name="text" type="text" size="15">
+			
+			<input name="button" type = "button" value = "查询" class="shortButton" >
+			&nbsp;
+          <input name="button_toExcel" class="longButton" type="button" value = "生成报表" onClick="goto('roomusetable.html');"></td>
+        </tr>
+      </table>
+
+	
+	<table class="table"  cellpadding="6" cellspacing="0" width="66%" >
+	
+	<tr>
+		<td class="tableColumeHead">编号</td>
+		<td class="tableColumeHead">名称</td>
+		<td class="tableColumeHead">可容纳人数</td>
+		<td class="tableColumeHead">备注</td>
+		<td class="tableColumeHead" colspan="2">操作</td>
+	</tr>
+	<tr>
+		<td>001</td>
+		<td>A201</td>
+	  <td>50人</td>
+		<td>设备良好，无投影仪</td>
+		 
+		<td><input name="alter" type="button" class="shortButton" value="修改" onclick="goto('meetingroomalter.html')" /></td>
+		<td><input name="alter" type="button" class="shortButton" value="删除" onclick="goto('meetingroomalterdelete.html')" /></td>
+	</tr>
+	<tr>
+		<td>002</td>
+		<td>A101</td>
+	  <td>80人</td>
+		<td>设备良好</td>
+		 
+		<td><input name="alter" type="button" class="shortButton" value="修改" onclick="msg('对不起，没有权限！')" /></td>
+		<td><input name="delete" type="button" class="shortButton" value="删除" onclick="msg('对不起，没有权限！')" /></td>
+	</tr>
+	<tr>
+		<td>003</td>
+		<td>A110</td>
+	  <td>30人</td>
+		<td>设备良好</td>
+		 
+		<td><input name="alter" type="button" class="shortButton" value="修改" onclick="msg('对不起，没有权限！')" /></td>
+		<td><input name="delete" type="button" class="shortButton" value="删除" onclick="msg('对不起，没有权限！')" /></td>
+	</tr>
+	<tr>
+		<td>004</td>
+		<td>A111</td>
+	  <td>100人</td>
+		<td>设备良好</td>
+		 
+		<td><input name="alter" type="button" class="shortButton" value="修改" onclick="msg('对不起，没有权限！')" /></td>
+		<td><input name="delete" type="button" class="shortButton" value="删除" onclick="msg('对不起，没有权限！')" /></td>
+	</tr>
+	 <tr>
+    <td colspan="8" align="center">第1页　共1页　首页　上一页　下一页　尾页 &nbsp;转至
+      <select name="select" >
+        <option selected>1</option>
+      </select>
+页</td>
+</tr>
+
+	</table>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

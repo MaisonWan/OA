@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/Login.do" location="50,50" dimension="219,88" />
+  <StrutsActivity path="/UserInfo.do" location="350,50" dimension="236,88" />
+  <StrutsActivity path="/OtherInfo.do" location="650,50" dimension="242,88" />
+  <StrutsActivity path="/userInfoUpdateAction.do" location="950,50" dimension="301,88" />
+  <StrutsActivity path="/userInfoUpdated.do" location="1550,50" dimension="277,88" />
+  <StrutsActivity path="/otherUserDetail.do" location="2150,50" dimension="271,88" />
+  <StrutsActivity path="/CardType.do" location="2750,50" dimension="241,88" />
+  <StrutsActivity path="/CardTypeAdd.do" location="3050,50" dimension="260,88" />
+  <StrutsActivity path="/SearchOtherInfo.do" location="3650,50" dimension="275,88" />
+  <StrutsActivity path="/searchCard.do" location="50,250" dimension="250,88" />
+  <StrutsActivity path="/selfCard.do" location="350,250" dimension="235,88" />
+  <StrutsActivity path="/toModifyCard.do" location="650,250" dimension="261,88" />
+  <StrutsActivity path="/modifyCard.do" location="1250,250" dimension="249,88" />
+  <StrutsActivity path="/ModifyPassword.do" location="1550,250" dimension="272,88" />
+  <StrutsActivity path="/Password.do" location="2150,250" dimension="240,88" />
+  <StrutsActivity path="/searchShareCardUser.do" location="2450,250" dimension="300,88" />
+  <StrutsActivity path="/shareCard.do" location="3050,250" dimension="245,88" />
+  <StrutsActivity path="/getShareCardById.do" location="3350,250" dimension="284,88" />
+  <StrutsActivity path="/Home.do" location="50,450" dimension="221,88" />
+  <StrutsActivity path="/newWorkConfig.do" location="350,450" dimension="271,88" />
+  <StrutsActivity path="/addWorkConfig.do" location="950,450" dimension="269,88" />
+  <StrutsActivity path="/authorizedUser.do" location="1550,450" dimension="268,88" />
+  <StrutsActivity path="/deleteAuthorizedUser.do" location="2150,450" dimension="299,88" />
+  <StrutsActivity path="/configWork.do" location="2750,450" dimension="250,88" />
+  <StrutsActivity path="/authorize.do" location="3050,450" dimension="240,88" />
+  <StrutsActivity path="/WorkPlan.do" location="3350,450" dimension="239,88" />
+  <StrutsActivity path="/WorkPlanDetail.do" location="3650,450" dimension="266,88" />
+  <StrutsActivity path="/canlenderSearch.do" location="50,650" dimension="276,88" />
+  <StrutsActivity path="/monthSearch.do" location="650,650" dimension="257,88" />
+  <StrutsActivity path="/DeleteWorkPlan.do" location="1250,650" dimension="270,88" />
+  <StrutsActivity path="/AllSearchWork.do" location="1850,650" dimension="263,88" />
+  <StrutsActivity path="/SearchPlan.do" location="2450,650" dimension="247,88" />
+  <StrutsActivity path="/workList.do" location="2750,650" dimension="235,88" />
+  <StrutsActivity path="/planList.do" location="3050,650" dimension="230,88" />
+  <StrutsActivity path="/planListMore.do" location="3350,650" dimension="254,88" />
+  <StrutsActivity path="/readPlan.do" location="50,850" dimension="239,88" />
+  <StrutsActivity path="/toModifyWorkConfig.do" location="350,850" dimension="294,88" />
+  <StrutsActivity path="/modifyWorkConfig.do" location="950,850" dimension="282,88" />
+  <StrutsActivity path="/addressInfo.do" location="1550,850" dimension="253,88" />
+  <StrutsActivity path="/addressinfoSend.do" location="2150,850" dimension="275,88" />
+  <StrutsActivity path="/OtherInfoPDF.do" location="2750,850" dimension="261,88" />
+  <StrutsActivity path="/excelExport.do" location="3350,850" dimension="251,88" />
+  <StrutsActivity path="/NewMessage.do" location="50,1050" dimension="257,88" />
+  <StrutsActivity path="/completePlan.do" location="650,1050" dimension="259,88" />
+  <StrutsActivity path="/deletePlan.do" location="1250,1050" dimension="245,88" />
+  <StrutsActivity path="/inBox.do" location="1550,1050" dimension="222,88" />
+  <StrutsActivity path="/searchInBox.do" location="1850,1050" dimension="255,88" />
+  <StrutsActivity path="/inBoxDetails.do" location="2450,1050" dimension="254,88" />
+  <StrutsActivity path="/newUserMessage.do" location="3050,1050" dimension="279,88" />
+  <StrutsActivity path="/newCard.do" location="3650,1050" dimension="238,88" />
+  <StrutsActivity path="/addCard.do" location="50,1250" dimension="236,88" />
+  <StrutsActivity path="/draftBox.do" location="350,1250" dimension="237,88" />
+  <StrutsActivity path="/MyFile.do" location="650,1250" dimension="224,88" />
+  <StrutsActivity path="/outbox.do" location="950,1250" dimension="230,88" />
+  <StrutsActivity path="/deleteInBoxMessage.do" location="1250,1250" dimension="295,88" />
+  <StrutsActivity path="/FolderDetail.do" location="1850,1250" dimension="251,88" />
+  <StrutsActivity path="/FileUpload.do" location="2450,1250" dimension="243,88" />
+  <StrutsActivity path="/FileUploadProcess.do" location="2750,1250" dimension="280,88" />
+  <StrutsActivity path="/DeleteFile.do" location="3350,1250" dimension="241,88" />
+  <StrutsActivity path="/draftMessage.do" location="3650,1250" dimension="261,88" />
+  <StrutsActivity path="/messageAfterAlter.do" location="50,1450" dimension="284,88" />
+  <StrutsActivity path="/roomRegist.do" location="650,1450" dimension="251,88" />
+  <StrutsActivity path="/roomRedirect.do" location="1250,1450" dimension="261,88" />
+  <StrutsActivity path="/newDept.do" location="1850,1450" dimension="238,88" />
+  <StrutsActivity path="/addDept.do" location="2150,1450" dimension="236,88" />
+  <StrutsActivity path="/deptList.do" location="2450,1450" dimension="233,88" />
+  <StrutsActivity path="/toModifyDept.do" location="2750,1450" dimension="261,88" />
+  <StrutsActivity path="/modifyDept.do" location="3350,1450" dimension="249,88" />
+  <StrutsActivity path="/deleteDept.do" location="3650,1450" dimension="248,88" />
+  <StrutsActivity path="/FolderFunction.do" location="50,1650" dimension="265,88" />
+  <StrutsActivity path="/registerMeetingRoomLog.do" location="650,1650" dimension="316,88" />
+  <StrutsActivity path="/cancilReg.do" location="1250,1650" dimension="241,88" />
+  <StrutsActivity path="/registerMeetingRoomLogDetails.do" location="1550,1650" dimension="348,88" />
+  <StrutsActivity path="/NewMeetingRoom.do" location="2150,1650" dimension="280,88" />
+  <StrutsActivity path="/AddMeetingRoom.do" location="2750,1650" dimension="278,88" />
+  <StrutsActivity path="/newSysPowerType.do" location="3350,1650" dimension="286,88" />
+  <StrutsActivity path="/addSysPowerType.do" location="50,1850" dimension="284,88" />
+  <StrutsActivity path="/sysPowerList.do" location="650,1850" dimension="257,88" />
+  <StrutsActivity path="/deleteSysPower.do" location="1250,1850" dimension="272,88" />
+  <StrutsActivity path="/SearchShareFile.do" location="1850,1850" dimension="271,88" />
+  <StrutsActivity path="/ShareFile.do" location="2450,1850" dimension="238,88" />
+  <StrutsActivity path="/meetingOrder.do" location="2750,1850" dimension="260,88" />
+  <StrutsActivity path="/searchAvailableRoom.do" location="3350,1850" dimension="297,88" />
+  <StrutsActivity path="/deleteSendMes.do" location="50,2050" dimension="268,88" />
+  <StrutsActivity path="/meetingAttend.do" location="650,2050" dimension="265,88" />
+  <StrutsActivity path="/meetingDetails.do" location="1250,2050" dimension="264,88" />
+  <StrutsActivity path="/meetingLaunch.do" location="1850,2050" dimension="266,88" />
+  <StrutsActivity path="/launchMeeting.do" location="2450,2050" dimension="266,88" />
+  <StrutsActivity path="/manageRoom.do" location="3050,2050" dimension="259,88" />
+  <StrutsActivity path="/manageAllRooms.do" location="3650,2050" dimension="275,88" />
+  <StrutsActivity path="/alterRoom.do" location="50,2250" dimension="244,88" />
+  <StrutsActivity path="/roomAlter.do" location="350,2250" dimension="244,88" />
+  <StrutsActivity path="/Logout.do" location="650,2250" dimension="227,88" />
+  <StrutsActivity path="/newSysRole.do" location="950,2250" dimension="253,88" />
+  <StrutsActivity path="/addSysRole.do" location="1550,2250" dimension="251,88" />
+  <StrutsActivity path="/UploadMeetingRecord.do" location="2150,2250" dimension="299,88" />
+  <StrutsActivity path="/manageMeetingRoom.do" location="2750,2250" dimension="297,88" />
+  <StrutsActivity path="/handleUnsettledRoom.do" location="3350,2250" dimension="300,88" />
+  <StrutsActivity path="/meetingRegDetails.do" location="50,2450" dimension="283,88" />
+  <StrutsActivity path="/outputGraph.do" location="650,2450" dimension="257,88" />
+  <StrutsActivity path="/graphOutput.do" location="1250,2450" dimension="257,88" />
+  <StrutsActivity path="/roomExcelExport.do" location="1850,2450" dimension="278,88" />
+  <StrutsActivity path="/AddNewFolder.do" location="2450,2450" dimension="264,88" />
+  <StrutsActivity path="/cardTypeDel.do" location="3050,2450" dimension="256,88" />
+  <StrutsActivity path="/roleArrange.do" location="3650,2450" dimension="254,88" />
+  <StrutsActivity path="/setUpRole.do" location="50,2650" dimension="244,88" />
+  <StrutsActivity path="/changeRole.do" location="350,2650" dimension="252,88" />
+  <StrutsActivity path="/setUpInfo.do" location="950,2650" dimension="243,88" />
+  <StrutsActivity path="/changeInfo.do" location="1250,2650" dimension="251,88" />
+  <StrutsActivity path="/addWorker.do" location="1850,2650" dimension="248,88" />
+  <StrutsActivity path="/confirmAddWorker.do" location="2150,2650" dimension="285,88" />
+  <StrutsActivity path="/readOutMessage.do" location="2750,2650" dimension="279,88" />
+  <StrutsActivity path="/showRoles.do" location="3350,2650" dimension="246,88" />
+  <StrutsActivity path="NullLogin;6" location="3650,2650" dimension="85,75" />
+  <StrutsActivity path="/login.jsp" location="50,2850" dimension="73,49" />
+  <StrutsActivity path="/login/login.jsp" location="350,2850" dimension="99,49" />
+  <StrutsActivity path="/info/UserInfo.jsp" location="650,2850" dimension="115,49" />
+  <StrutsActivity path="/info/OtherInfo.jsp" location="950,2850" dimension="121,49" />
+  <StrutsActivity path="/info/userInfoUpdated.jsp" location="1250,2850" dimension="155,49" />
+  <StrutsActivity path="/info/otherUserDetail.jsp" location="1550,2850" dimension="148,49" />
+  <StrutsActivity path="/card/cardType.jsp" location="1850,2850" dimension="121,49" />
+  <StrutsActivity path="/card/selfCard.jsp" location="2150,2850" dimension="116,49" />
+  <StrutsActivity path="/card/modifyCard.jsp" location="2450,2850" dimension="131,49" />
+  <StrutsActivity path="/info/modifyPassword.jsp" location="2750,2850" dimension="151,49" />
+  <StrutsActivity path="/card/shareCard.jsp" location="3050,2850" dimension="126,49" />
+  <StrutsActivity path="/card/shareCardList.jsp" location="3350,2850" dimension="142,49" />
+  <StrutsActivity path="/home/home.jsp" location="3650,2850" dimension="107,49" />
+  <StrutsActivity path="/work/addWorkConfig.jsp" location="50,2950" dimension="152,49" />
+  <StrutsActivity path="/work/authorizedUser.jsp" location="350,2950" dimension="151,49" />
+  <StrutsActivity path="/work/configWork.jsp" location="650,2950" dimension="132,49" />
+  <StrutsActivity path="/work/workPlan.jsp" location="950,2950" dimension="121,49" />
+  <StrutsActivity path="/work/planDetail.jsp" location="1250,2950" dimension="125,49" />
+  <StrutsActivity path="/work/workPlanSchedule.jsp" location="1550,2950" dimension="164,49" />
+  <StrutsActivity path="/work/canlenderSearch.jsp" location="1850,2950" dimension="158,49" />
+  <StrutsActivity path="/work/monthWorkSchedule.jsp" location="2150,2950" dimension="176,49" />
+  <StrutsActivity path="/work/allSearchWork.jsp" location="2450,2950" dimension="146,49" />
+  <StrutsActivity path="/work/workList.jsp" location="2750,2950" dimension="117,49" />
+  <StrutsActivity path="/work/planList.jsp" location="3050,2950" dimension="114,49" />
+  <StrutsActivity path="/work/planListMore.jsp" location="3350,2950" dimension="138,49" />
+  <StrutsActivity path="/work/planDetails.jsp" location="3650,2950" dimension="130,49" />
+  <StrutsActivity path="/work/modifyWorkConfig.jsp" location="50,3050" dimension="166,49" />
+  <StrutsActivity path="/address/address.jsp" location="350,3050" dimension="131,49" />
+  <StrutsActivity path="/message/newMessage.jsp" location="650,3050" dimension="159,49" />
+  <StrutsActivity path="/message/inBox.jsp" location="950,3050" dimension="123,49" />
+  <StrutsActivity path="/form/searchInBox.jsp" location="1250,3050" dimension="137,49" />
+  <StrutsActivity path="/message/inBoxDetails.jsp" location="1550,3050" dimension="155,49" />
+  <StrutsActivity path="/card/addCard.jsp" location="1850,3050" dimension="117,49" />
+  <StrutsActivity path="/message/draftBox.jsp" location="2150,3050" dimension="139,49" />
+  <StrutsActivity path="/filepage/myFile.jsp" location="2450,3050" dimension="123,49" />
+  <StrutsActivity path="/message/outbox.jsp" location="2750,3050" dimension="131,49" />
+  <StrutsActivity path="/filepage/folderDetail.jsp" location="3050,3050" dimension="148,49" />
+  <StrutsActivity path="/filepage/fileUpload.jsp" location="3350,3050" dimension="140,49" />
+  <StrutsActivity path="/message/alertDraftMessage.jsp" location="3650,3050" dimension="186,49" />
+  <StrutsActivity path="/meeting/roomRegist.jsp" location="50,3150" dimension="147,49" />
+  <StrutsActivity path="/dept/addDept.jsp" location="350,3150" dimension="118,49" />
+  <StrutsActivity path="/dept/deptList.jsp" location="650,3150" dimension="115,49" />
+  <StrutsActivity path="/dept/modifyDept.jsp" location="950,3150" dimension="132,49" />
+  <StrutsActivity path="/meeting/registerMeetingRoomLog.jsp" location="1250,3150" dimension="212,49" />
+  <StrutsActivity path="//registerMeetingRoomLog.do" location="1550,3150" dimension="182,75" />
+  <StrutsActivity path="/meeting/registerMeetingRoomLogDetails.jsp" location="1850,3150" dimension="244,49" />
+  <StrutsActivity path="/meeting/addMeetingRoom.jsp" location="2150,3150" dimension="176,49" />
+  <StrutsActivity path="/power/addSysPowerType.jsp" location="2450,3150" dimension="174,49" />
+  <StrutsActivity path="/power/sysPowerList.jsp" location="2750,3150" dimension="147,49" />
+  <StrutsActivity path="/filepage/searchShareFile.jsp" location="3050,3150" dimension="169,49" />
+  <StrutsActivity path="/meeting/meetingOrder.jsp" location="3350,3150" dimension="159,49" />
+  <StrutsActivity path="/meeting/meetingAttend.jsp" location="3650,3150" dimension="164,49" />
+  <StrutsActivity path="/meeting/meetingDetails.jsp" location="50,3250" dimension="163,49" />
+  <StrutsActivity path="/meeting/meetingLaunch.jsp" location="350,3250" dimension="165,49" />
+  <StrutsActivity path="/adminmeeting/managerroom.jsp" location="650,3250" dimension="187,49" />
+  <StrutsActivity path="/adminmeeting/alterRoom.jsp" location="950,3250" dimension="170,49" />
+  <StrutsActivity path="/role/addSysRole.jsp" location="1250,3250" dimension="129,49" />
+  <StrutsActivity path="showRoles.do" location="2150,3350" dimension="123,84" />
+  <StrutsActivity path="meetingDetails.do" location="1850,3250" dimension="125,75" />
+  <StrutsActivity path="/meeting/manageMeetingRoom.jsp" location="2150,3250" dimension="196,49" />
+  <StrutsActivity path="manageMeetingRoom.do" location="2450,3250" dimension="158,75" />
+  <StrutsActivity path="/meeting/meetingRegDetails.jsp" location="2750,3250" dimension="182,49" />
+  <StrutsActivity path="/adminmeeting/outputGraph.jsp" location="3050,3250" dimension="182,49" />
+  <StrutsActivity path="/role/roleArrange.jsp" location="3350,3250" dimension="130,49" />
+  <StrutsActivity path="/role/setUpRole.jsp" location="3650,3250" dimension="122,49" />
+  <StrutsActivity path="/roleArrage.do" location="50,3350" dimension="110,75" />
+  <StrutsActivity path="/role/setUpInfo.jsp" location="350,3350" dimension="121,49" />
+  <StrutsActivity path="/form/changeInfo.jsp" location="650,3350" dimension="132,49" />
+  <StrutsActivity path="/role/addWorker.jsp" location="950,3350" dimension="126,49" />
+  <StrutsActivity path="/message/outBoxDetails.jsp" location="1250,3350" dimension="163,49" />
+  <StrutsActivity path="/role/roleList.jsp" location="1550,3350" dimension="107,49" />
+  <StrutsActivity path="/meeting/noRoomReg.jsp" location="2750,3350" dimension="151,49" />
+  <StrutsTransition id="/meetingOrder.do,meetingOrder.failed,/meeting/meetingOrder.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2880,1938" />
+      <AbsolutePoint location="2880,2231" />
+      <AbsolutePoint location="4066,2231" />
+      <AbsolutePoint location="4066,3124" />
+      <AbsolutePoint location="3443,3124" />
+      <AbsolutePoint location="3443,3150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/shareCard.do,null,/getShareCardById.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3295,294" />
+      <AbsolutePoint location="3350,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/graphOutput.do,graphOutput.successd,/outputGraph.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,2524" />
+      <AbsolutePoint location="907,2524" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomRedirect.do,roomRedirect.fail,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1516" />
+      <AbsolutePoint location="1224,1516" />
+      <AbsolutePoint location="1224,2936" />
+      <AbsolutePoint location="86,2936" />
+      <AbsolutePoint location="86,2899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deptList.do,null,/deleteDept.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2596,1538" />
+      <AbsolutePoint location="2596,1610" />
+      <AbsolutePoint location="3744,1610" />
+      <AbsolutePoint location="3744,1538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/registerMeetingRoomLog.do,registerMeetingRoomLog.failed,/meeting/registerMeetingRoomLog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="965,1738" />
+      <AbsolutePoint location="965,1759" />
+      <AbsolutePoint location="1838,1759" />
+      <AbsolutePoint location="1838,3140" />
+      <AbsolutePoint location="1356,3140" />
+      <AbsolutePoint location="1356,3150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/changeInfo.do,changeInfo.failed,/roleArrange.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1483,2738" />
+      <AbsolutePoint location="1483,3559" />
+      <AbsolutePoint location="3843,3559" />
+      <AbsolutePoint location="3843,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addWorker.do,addWorker.succeed,/role/addWorker.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2096,2738" />
+      <AbsolutePoint location="2096,3413" />
+      <AbsolutePoint location="1013,3413" />
+      <AbsolutePoint location="1013,3399" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WorkPlanDetail.do,WorkPlanDetail.error,/work/workPlan.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3783,494" />
+      <AbsolutePoint location="3783,2974" />
+      <AbsolutePoint location="1010,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addCard.do,AddCard.faild,/newCard.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1294" />
+      <AbsolutePoint location="27,1294" />
+      <AbsolutePoint location="27,946" />
+      <AbsolutePoint location="3778,946" />
+      <AbsolutePoint location="3778,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingAttend.do,meetingAttend.failed,/meeting/meetingAttend.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="910,2138" />
+      <AbsolutePoint location="910,3244" />
+      <AbsolutePoint location="3742,3244" />
+      <AbsolutePoint location="3742,3199" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/FileUpload.do,FileUpload.succeed,/filepage/fileUpload.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2571,1294" />
+      <AbsolutePoint location="2571,3074" />
+      <AbsolutePoint location="3420,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/FileUploadProcess.do,FileUploadProcess.error,/FileUpload.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,1294" />
+      <AbsolutePoint location="2693,1294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteSysPower.do,DeleteSysPower.faild,/sysPowerList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1864" />
+      <AbsolutePoint location="907,1864" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/OtherInfo.do,OtherInfo.error,/info/OtherInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="771,138" />
+      <AbsolutePoint location="771,220" />
+      <AbsolutePoint location="1240,220" />
+      <AbsolutePoint location="1240,2888" />
+      <AbsolutePoint location="1071,2888" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/messageAfterAlter.do,messageAfterAlter.fail,/draftBox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="334,1524" />
+      <AbsolutePoint location="438,1524" />
+      <AbsolutePoint location="438,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showRoles.do,ShowRoles.successd,/role/roleList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3524,2738" />
+      <AbsolutePoint location="3524,3479" />
+      <AbsolutePoint location="1625,3479" />
+      <AbsolutePoint location="1625,3399" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addressInfo.do,null,/addressinfoSend.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1803,894" />
+      <AbsolutePoint location="2150,894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/alterRoom.do,alterRoom.fail,/manageRoom.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="172,2338" />
+      <AbsolutePoint location="172,2353" />
+      <AbsolutePoint location="3148,2353" />
+      <AbsolutePoint location="3148,2138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Password.do,null,/ModifyPassword.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,294" />
+      <AbsolutePoint location="1822,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/CardTypeAdd.do,CardTypeAdd.error,/CardType.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3180,50" />
+      <AbsolutePoint location="3180,5" />
+      <AbsolutePoint location="2930,5" />
+      <AbsolutePoint location="2930,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingAttend.do,meetingAttend.succeed,/meeting/meetingAttend.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2094" />
+      <AbsolutePoint location="325,2094" />
+      <AbsolutePoint location="325,2415" />
+      <AbsolutePoint location="1753,2415" />
+      <AbsolutePoint location="1753,3206" />
+      <AbsolutePoint location="3732,3206" />
+      <AbsolutePoint location="3732,3199" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WorkPlanDetail.do,WorkPlanDetail.succeed,/work/planDetail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3783,494" />
+      <AbsolutePoint location="3783,2974" />
+      <AbsolutePoint location="1312,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/FolderDetail.do,FolderDetail.succeed,/filepage/folderDetail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,1338" />
+      <AbsolutePoint location="1975,1348" />
+      <AbsolutePoint location="3342,1348" />
+      <AbsolutePoint location="3342,3074" />
+      <AbsolutePoint location="3198,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/draftMessage.do,draftMessage.Asuccessd,/message/alertDraftMessage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3780,1294" />
+      <AbsolutePoint location="3780,3074" />
+      <AbsolutePoint location="3743,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/draftBox.do,draftBox.successd,/message/draftBox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="468,1338" />
+      <AbsolutePoint location="468,1983" />
+      <AbsolutePoint location="1816,1983" />
+      <AbsolutePoint location="1816,3014" />
+      <AbsolutePoint location="2219,3014" />
+      <AbsolutePoint location="2219,3050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/changeRole.do,changeRole.succeed,/roleArrange.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="490,2650" />
+      <AbsolutePoint location="490,2431" />
+      <AbsolutePoint location="3777,2431" />
+      <AbsolutePoint location="3777,2450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newSysPowerType.do,null,/addSysPowerType.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3493,1738" />
+      <AbsolutePoint location="3493,1844" />
+      <AbsolutePoint location="192,1844" />
+      <AbsolutePoint location="192,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Password.do,Password.succeed,/info/modifyPassword.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2270,294" />
+      <AbsolutePoint location="2270,2874" />
+      <AbsolutePoint location="2825,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/setUpInfo.do,setUpInfo.succeed,/role/setUpInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1135,2738" />
+      <AbsolutePoint location="1135,3479" />
+      <AbsolutePoint location="410,3479" />
+      <AbsolutePoint location="410,3399" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomAlter.do,null,/alterRoom.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,2294" />
+      <AbsolutePoint location="294,2294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addWorker.do,null,/confirmAddWorker.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2098,2694" />
+      <AbsolutePoint location="2150,2694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomExcelExport.do,roomExcelExport.successd,/outputGraph.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1989,2538" />
+      <AbsolutePoint location="1989,2583" />
+      <AbsolutePoint location="780,2583" />
+      <AbsolutePoint location="780,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.jsp,null,/Login.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2874" />
+      <AbsolutePoint location="-25,2874" />
+      <AbsolutePoint location="-25,94" />
+      <AbsolutePoint location="50,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/manageRoom.do,manageRoom.successd,/adminmeeting/managerroom.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3208,2138" />
+      <AbsolutePoint location="3208,2409" />
+      <AbsolutePoint location="1777,2409" />
+      <AbsolutePoint location="1777,3314" />
+      <AbsolutePoint location="743,3314" />
+      <AbsolutePoint location="743,3299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newUserMessage.do,newUserMessage.succeed,/outbox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3189,1138" />
+      <AbsolutePoint location="3189,1783" />
+      <AbsolutePoint location="1094,1783" />
+      <AbsolutePoint location="1094,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchInBox.do,searchInBox.failed,/inBox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,1064" />
+      <AbsolutePoint location="1772,1064" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteSendMes.do,deleteSendMes.successd,/outbox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="194,2138" />
+      <AbsolutePoint location="194,2231" />
+      <AbsolutePoint location="1047,2231" />
+      <AbsolutePoint location="1047,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/searchInBox.jsp,null,/searchInBox.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1318,3074" />
+      <AbsolutePoint location="1318,1094" />
+      <AbsolutePoint location="1977,1094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/NewMessage.do,NewMessage.succeed,/message/newMessage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="178,1094" />
+      <AbsolutePoint location="178,3074" />
+      <AbsolutePoint location="729,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/registerMeetingRoomLogDetails.do,registerMeetingRoomLogDetails.succeed,/meeting/registerMeetingRoomLogDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1724,1738" />
+      <AbsolutePoint location="1724,1962" />
+      <AbsolutePoint location="336,1962" />
+      <AbsolutePoint location="336,2378" />
+      <AbsolutePoint location="1798,2378" />
+      <AbsolutePoint location="1798,3174" />
+      <AbsolutePoint location="1850,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/OtherInfo.do,null,/OtherInfoPDF.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="892,108" />
+      <AbsolutePoint location="918,108" />
+      <AbsolutePoint location="918,835" />
+      <AbsolutePoint location="2880,835" />
+      <AbsolutePoint location="2880,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletePlan.do,deletePlan.planList.succeed,/work/planList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1372,1094" />
+      <AbsolutePoint location="1372,2974" />
+      <AbsolutePoint location="3107,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/setUpRole.do,setUpRole.failed,/roleArrage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="278,2738" />
+      <AbsolutePoint location="278,3387" />
+      <AbsolutePoint location="160,3387" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/NewMeetingRoom.do,newMeetingRoom.error,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2290,1738" />
+      <AbsolutePoint location="2290,2187" />
+      <AbsolutePoint location="27,2187" />
+      <AbsolutePoint location="27,2852" />
+      <AbsolutePoint location="50,2852" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/outbox.do,Outbox.succeed,/message/outbox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1065,1338" />
+      <AbsolutePoint location="1065,2241" />
+      <AbsolutePoint location="3921,2241" />
+      <AbsolutePoint location="3921,3014" />
+      <AbsolutePoint location="2815,3014" />
+      <AbsolutePoint location="2815,3050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AddMeetingRoom.do,addMeetingRoom.success,/meeting/addMeetingRoom.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3012,1738" />
+      <AbsolutePoint location="3012,2177" />
+      <AbsolutePoint location="1509,2177" />
+      <AbsolutePoint location="1509,3231" />
+      <AbsolutePoint location="2238,3231" />
+      <AbsolutePoint location="2238,3199" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/readOutMessage.do,readOutMessage.fail,/outbox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2889,2650" />
+      <AbsolutePoint location="2889,2389" />
+      <AbsolutePoint location="2124,2389" />
+      <AbsolutePoint location="2124,1245" />
+      <AbsolutePoint location="1065,1245" />
+      <AbsolutePoint location="1065,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selfCard.do,null,/searchCard.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,294" />
+      <AbsolutePoint location="300,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selfCard.do,selfCard.succeed,/card/selfCard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="467,338" />
+      <AbsolutePoint location="467,413" />
+      <AbsolutePoint location="2145,413" />
+      <AbsolutePoint location="2145,2874" />
+      <AbsolutePoint location="2150,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/inBoxDetails.do,inBoxDetails.failed,/message/inBoxDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2577,1094" />
+      <AbsolutePoint location="2577,3074" />
+      <AbsolutePoint location="1627,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/FolderFunction.do,FolderFunction.succeed,/FolderDetail.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="212,1650" />
+      <AbsolutePoint location="212,1610" />
+      <AbsolutePoint location="1595,1610" />
+      <AbsolutePoint location="1595,1264" />
+      <AbsolutePoint location="1850,1264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/completePlan.do,completePlan.planList.succeed,/work/planList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="909,1099" />
+      <AbsolutePoint location="1190,1099" />
+      <AbsolutePoint location="1190,2068" />
+      <AbsolutePoint location="947,2068" />
+      <AbsolutePoint location="947,3045" />
+      <AbsolutePoint location="3107,3045" />
+      <AbsolutePoint location="3107,2999" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/FileUploadProcess.do,FileUploadProcess.succeed,/FolderDetail.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2880,1250" />
+      <AbsolutePoint location="2880,1183" />
+      <AbsolutePoint location="2005,1183" />
+      <AbsolutePoint location="2005,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newCard.do,null,/addCard.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3769,1050" />
+      <AbsolutePoint location="3769,1004" />
+      <AbsolutePoint location="317,1004" />
+      <AbsolutePoint location="317,1303" />
+      <AbsolutePoint location="286,1303" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/UserInfo.do,UserInfo.error,/login/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="468,94" />
+      <AbsolutePoint location="468,2874" />
+      <AbsolutePoint location="399,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newCard.do,NewCard.succeed,/card/addCard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3769,1094" />
+      <AbsolutePoint location="3769,3074" />
+      <AbsolutePoint location="1908,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/CardType.do,cardType.success,/card/cardType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2900,50" />
+      <AbsolutePoint location="2900,-25" />
+      <AbsolutePoint location="4030,-25" />
+      <AbsolutePoint location="4030,2753" />
+      <AbsolutePoint location="1910,2753" />
+      <AbsolutePoint location="1910,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Password.do,Password.error,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2270,338" />
+      <AbsolutePoint location="2270,413" />
+      <AbsolutePoint location="2731,413" />
+      <AbsolutePoint location="2731,2914" />
+      <AbsolutePoint location="116,2914" />
+      <AbsolutePoint location="116,2899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/shareCard.do,null,/searchShareCardUser.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,294" />
+      <AbsolutePoint location="2750,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyWorkConfig.do,null,/modifyWorkConfig.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="644,894" />
+      <AbsolutePoint location="950,894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingLaunch.do,meetingLaunch.fail,/meeting/noRoomReg.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1983,2094" />
+      <AbsolutePoint location="1983,3374" />
+      <AbsolutePoint location="2825,3374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ModifyPassword.do,ModifyPassword.fail,/Password.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1822,311" />
+      <AbsolutePoint location="2150,311" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/draftMessage.do,draftMessage.fail,/draftBox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3780,1250" />
+      <AbsolutePoint location="3780,1213" />
+      <AbsolutePoint location="468,1213" />
+      <AbsolutePoint location="468,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteSendMes.do,deleteSendMes.fail,/outbox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="184,2050" />
+      <AbsolutePoint location="184,2035" />
+      <AbsolutePoint location="1025,2035" />
+      <AbsolutePoint location="1025,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/modifyWorkConfig.do,ModifyWorkConfig.faild,/toModifyWorkConfig.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,911" />
+      <AbsolutePoint location="644,911" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/modifyWorkConfig.do,ModifyWorkConfig.succeed,/WorkPlan.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1093,850" />
+      <AbsolutePoint location="1093,561" />
+      <AbsolutePoint location="3460,561" />
+      <AbsolutePoint location="3460,538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/monthSearch.do,monthSearch.successd,/work/monthWorkSchedule.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="778,650" />
+      <AbsolutePoint location="778,2974" />
+      <AbsolutePoint location="2326,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Login.do,Login.succeed,/Home.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,77" />
+      <AbsolutePoint location="-86,77" />
+      <AbsolutePoint location="-86,494" />
+      <AbsolutePoint location="50,494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addWorkConfig.do,AddWorkConfig.succeed,/WorkPlan.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1084,538" />
+      <AbsolutePoint location="1084,552" />
+      <AbsolutePoint location="3446,552" />
+      <AbsolutePoint location="3446,538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/planList.do,planList.succeed,/work/planList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3165,694" />
+      <AbsolutePoint location="3165,2974" />
+      <AbsolutePoint location="3107,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/alterRoom.do,alterRoom.successd,/manageRoom.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="172,2250" />
+      <AbsolutePoint location="172,2154" />
+      <AbsolutePoint location="3178,2154" />
+      <AbsolutePoint location="3178,2138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/outputGraph.do,null,/roomExcelExport.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="750,2538" />
+      <AbsolutePoint location="750,2613" />
+      <AbsolutePoint location="2019,2613" />
+      <AbsolutePoint location="2019,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cancilReg.do,cancilReg.failed,//registerMeetingRoomLog.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1370,1694" />
+      <AbsolutePoint location="1370,3187" />
+      <AbsolutePoint location="1641,3187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cardTypeDel.do,CardTypeDel.fail,/CardType.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3191,2538" />
+      <AbsolutePoint location="3191,2583" />
+      <AbsolutePoint location="3970,2583" />
+      <AbsolutePoint location="3970,-85" />
+      <AbsolutePoint location="2840,-85" />
+      <AbsolutePoint location="2840,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/canlenderSearch.do,canlenderSearch.successd,/work/workPlanSchedule.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="188,694" />
+      <AbsolutePoint location="188,2974" />
+      <AbsolutePoint location="1632,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/changeInfo.do,changeInfo.succeed,/roleArrange.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1375,2738" />
+      <AbsolutePoint location="1375,2835" />
+      <AbsolutePoint location="3809,2835" />
+      <AbsolutePoint location="3809,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SearchPlan.do,SearchPlan.succeed,/work/allSearchWork.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2573,694" />
+      <AbsolutePoint location="2573,2974" />
+      <AbsolutePoint location="2523,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingLaunch.do,meetingLaunch.fail,/registerMeetingRoomLog.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1983,2050" />
+      <AbsolutePoint location="1983,2013" />
+      <AbsolutePoint location="947,2013" />
+      <AbsolutePoint location="947,1738" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteInBoxMessage.do,deleteInBoxMessage.succeed,/inBox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1545,1324" />
+      <AbsolutePoint location="1691,1324" />
+      <AbsolutePoint location="1691,1138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/manageAllRooms.do,manageAllRooms.redirect,/roomAlter.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3786,2050" />
+      <AbsolutePoint location="3786,2045" />
+      <AbsolutePoint location="472,2045" />
+      <AbsolutePoint location="472,2250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/completePlan.do,completePlan.planListMore.succeed,/work/planListMore.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="909,1094" />
+      <AbsolutePoint location="1195,1094" />
+      <AbsolutePoint location="1195,2247" />
+      <AbsolutePoint location="4054,2247" />
+      <AbsolutePoint location="4054,2914" />
+      <AbsolutePoint location="3419,2914" />
+      <AbsolutePoint location="3419,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/manageMeetingRoom.do,manageMeetingRoom.succeed,/meeting/manageMeetingRoom.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3036,2338" />
+      <AbsolutePoint location="3036,3220" />
+      <AbsolutePoint location="2248,3220" />
+      <AbsolutePoint location="2248,3250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyCard.do,ToModifyCard.succeed,/card/modifyCard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="780,294" />
+      <AbsolutePoint location="780,2874" />
+      <AbsolutePoint location="2515,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WorkPlan.do,WorkPlan.succeed,/work/workPlan.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3469,494" />
+      <AbsolutePoint location="3469,2974" />
+      <AbsolutePoint location="1010,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addWorkConfig.do,AddWorkConfig.faild,/newWorkConfig.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,511" />
+      <AbsolutePoint location="621,511" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyDept.do,ToModifyDept.error,/modifyDept.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3011,1494" />
+      <AbsolutePoint location="3350,1494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomRegist.do,roomRegist.fail,/registerMeetingRoomLog.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="775,1538" />
+      <AbsolutePoint location="775,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cancilReg.do,cancilReg.succeed,/registerMeetingRoomLog.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1694" />
+      <AbsolutePoint location="966,1694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/draftMessage.do,draftMessage.Dsuccessd,/draftBox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3780,1338" />
+      <AbsolutePoint location="3780,1413" />
+      <AbsolutePoint location="498,1413" />
+      <AbsolutePoint location="498,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SearchShareFile.do,SearchShareFile.succeed,/ShareFile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2121,1911" />
+      <AbsolutePoint location="2450,1911" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/MyFile.do,MyFile.succeed,/filepage/myFile.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1300" />
+      <AbsolutePoint location="597,1300" />
+      <AbsolutePoint location="597,2554" />
+      <AbsolutePoint location="2669,2554" />
+      <AbsolutePoint location="2669,3074" />
+      <AbsolutePoint location="2573,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/OtherInfoPDF.do,OtherInfoPDF.succeed,/OtherInfo.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3011,894" />
+      <AbsolutePoint location="3317,894" />
+      <AbsolutePoint location="3317,41" />
+      <AbsolutePoint location="793,41" />
+      <AbsolutePoint location="793,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Login.do,Login.error,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,124" />
+      <AbsolutePoint location="5,124" />
+      <AbsolutePoint location="5,2783" />
+      <AbsolutePoint location="86,2783" />
+      <AbsolutePoint location="86,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteSysPower.do,DeleteSysPower.succeed,/sysPowerList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1924" />
+      <AbsolutePoint location="907,1924" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/manageAllRooms.do,manageAllRooms.successd,/manageRoom.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,2064" />
+      <AbsolutePoint location="3309,2064" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/modifyCard.do,ModifyCard.succeed,/selfCard.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1374,338" />
+      <AbsolutePoint location="1374,383" />
+      <AbsolutePoint location="485,383" />
+      <AbsolutePoint location="485,338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newWorkConfig.do,NewWorkConfig.succeed,/work/addWorkConfig.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="485,494" />
+      <AbsolutePoint location="485,2974" />
+      <AbsolutePoint location="126,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/draftMessage.do,null,/messageAfterAlter.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3810,1338" />
+      <AbsolutePoint location="3810,1444" />
+      <AbsolutePoint location="192,1444" />
+      <AbsolutePoint location="192,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addDept.do,AddDept.faild,/newDept.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1511" />
+      <AbsolutePoint location="2088,1511" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/modifyDept.do,ModifyDept.faild,/toModifyDept.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,1477" />
+      <AbsolutePoint location="3011,1477" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newSysRole.do,NewSysRole.succeed,/role/addSysRole.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1196,2338" />
+      <AbsolutePoint location="1196,3274" />
+      <AbsolutePoint location="1250,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userInfoUpdateAction.do,null,/userInfoUpdated.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1251,94" />
+      <AbsolutePoint location="1550,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/OtherInfo.do,null,/SearchOtherInfo.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="780,138" />
+      <AbsolutePoint location="780,154" />
+      <AbsolutePoint location="3787,154" />
+      <AbsolutePoint location="3787,138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="NullLogin;6,null,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3692,2725" />
+      <AbsolutePoint location="3692,2783" />
+      <AbsolutePoint location="164,2783" />
+      <AbsolutePoint location="164,2852" />
+      <AbsolutePoint location="123,2852" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/CardTypeAdd.do,CardTypeAdd.success,/CardType.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,64" />
+      <AbsolutePoint location="2991,64" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyCard.do,ToModifyCard.faild,/card/selfCard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="780,250" />
+      <AbsolutePoint location="780,237" />
+      <AbsolutePoint location="2115,237" />
+      <AbsolutePoint location="2115,1744" />
+      <AbsolutePoint location="1847,1744" />
+      <AbsolutePoint location="1847,2774" />
+      <AbsolutePoint location="2208,2774" />
+      <AbsolutePoint location="2208,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyWorkConfig.do,ToModifyWorkConfig.faild,/WorkPlan.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="497,850" />
+      <AbsolutePoint location="497,635" />
+      <AbsolutePoint location="3486,635" />
+      <AbsolutePoint location="3486,538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/configWork.do,configWork.succeed,/work/configWork.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2875,494" />
+      <AbsolutePoint location="2875,2974" />
+      <AbsolutePoint location="716,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DeleteFile.do,DeleteFile.error,/MyFile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3470,1338" />
+      <AbsolutePoint location="3470,1435" />
+      <AbsolutePoint location="762,1435" />
+      <AbsolutePoint location="762,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deptList.do,DeptList.succeed,/dept/deptList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2566,1450" />
+      <AbsolutePoint location="2566,1359" />
+      <AbsolutePoint location="1529,1359" />
+      <AbsolutePoint location="1529,3206" />
+      <AbsolutePoint location="707,3206" />
+      <AbsolutePoint location="707,3199" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchAvailableRoom.do,searchAvailableRoom.succeed,/meetingOrder.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,1864" />
+      <AbsolutePoint location="3010,1864" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/CardType.do,null,/cardTypeDel.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2991,124" />
+      <AbsolutePoint location="3026,124" />
+      <AbsolutePoint location="3026,1183" />
+      <AbsolutePoint location="3324,1183" />
+      <AbsolutePoint location="3324,2494" />
+      <AbsolutePoint location="3306,2494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/excelExport.do,ExcelExport.succussd,/addressInfo.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3445,850" />
+      <AbsolutePoint location="3445,813" />
+      <AbsolutePoint location="1706,813" />
+      <AbsolutePoint location="1706,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchShareCardUser.do,searchShareCardUser.succeed,/shareCard.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,264" />
+      <AbsolutePoint location="3050,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyWorkConfig.do,ToModifyWorkConfig.succeed,/work/modifyWorkConfig.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="497,894" />
+      <AbsolutePoint location="497,3074" />
+      <AbsolutePoint location="133,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addDept.do,AddDept.succeed,/deptList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2386,1494" />
+      <AbsolutePoint location="2450,1494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyCard.do,ToModifyCard.Null,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="780,338" />
+      <AbsolutePoint location="780,583" />
+      <AbsolutePoint location="-85,583" />
+      <AbsolutePoint location="-85,2813" />
+      <AbsolutePoint location="56,2813" />
+      <AbsolutePoint location="56,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomRedirect.do,roomRedirect.successd,/meeting/roomRegist.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1380,1494" />
+      <AbsolutePoint location="1380,3174" />
+      <AbsolutePoint location="123,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/OtherInfo.do,OtherInfo.succeed,/info/OtherInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="892,94" />
+      <AbsolutePoint location="932,94" />
+      <AbsolutePoint location="932,1588" />
+      <AbsolutePoint location="1210,1588" />
+      <AbsolutePoint location="1210,2874" />
+      <AbsolutePoint location="1071,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addressinfoSend.do,addressinfoSend.successd,/addressInfo.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,924" />
+      <AbsolutePoint location="1803,924" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/FolderDetail.do,null,/FolderFunction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,1294" />
+      <AbsolutePoint location="1751,1294" />
+      <AbsolutePoint location="1751,1554" />
+      <AbsolutePoint location="182,1554" />
+      <AbsolutePoint location="182,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workList.do,workList.succeed,/work/workList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2985,694" />
+      <AbsolutePoint location="3043,694" />
+      <AbsolutePoint location="3043,2208" />
+      <AbsolutePoint location="2653,2208" />
+      <AbsolutePoint location="2653,2444" />
+      <AbsolutePoint location="3045,2444" />
+      <AbsolutePoint location="3045,2974" />
+      <AbsolutePoint location="2867,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteDept.do,DeleteDept.faild,/deptList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3774,1538" />
+      <AbsolutePoint location="3774,1753" />
+      <AbsolutePoint location="2566,1753" />
+      <AbsolutePoint location="2566,1538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ModifyPassword.do,ModifyPassword.error,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1686,250" />
+      <AbsolutePoint location="1686,184" />
+      <AbsolutePoint location="-55,184" />
+      <AbsolutePoint location="-55,2914" />
+      <AbsolutePoint location="64,2914" />
+      <AbsolutePoint location="64,2899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/manageRoom.do,null,/manageAllRooms.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3309,2094" />
+      <AbsolutePoint location="3650,2094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ShareFile.do,null,/SearchShareFile.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1894" />
+      <AbsolutePoint location="2121,1894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/registerMeetingRoomLog.do,registerMeetingRoomLog.succeed,/meeting/registerMeetingRoomLog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="822,1738" />
+      <AbsolutePoint location="822,1819" />
+      <AbsolutePoint location="1543,1819" />
+      <AbsolutePoint location="1543,3174" />
+      <AbsolutePoint location="1462,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingOrder.do,null,/searchAvailableRoom.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3010,1894" />
+      <AbsolutePoint location="3350,1894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingOrder.do,meetingOrder.succeed,/meeting/meetingOrder.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2894,1938" />
+      <AbsolutePoint location="2894,2187" />
+      <AbsolutePoint location="3911,2187" />
+      <AbsolutePoint location="3911,3110" />
+      <AbsolutePoint location="3429,3110" />
+      <AbsolutePoint location="3429,3150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/outputGraph.do,null,/graphOutput.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="907,2494" />
+      <AbsolutePoint location="1250,2494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomRegist.do,roomRegist.successd,/registerMeetingRoomLog.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="805,1538" />
+      <AbsolutePoint location="805,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dept/modifyDept.jsp,null,/modifyDept.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1016,3174" />
+      <AbsolutePoint location="1016,1494" />
+      <AbsolutePoint location="3474,1494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showRoles.do,ShowRoles.fail,/role/roleList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3546,2738" />
+      <AbsolutePoint location="3546,3531" />
+      <AbsolutePoint location="1603,3531" />
+      <AbsolutePoint location="1603,3399" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newSysPowerType.do,NewSysPowerType.succeed,/power/addSysPowerType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3493,1694" />
+      <AbsolutePoint location="3493,3174" />
+      <AbsolutePoint location="2537,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addSysPowerType.do,AddSysPower.succeed,/sysPowerList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="334,1894" />
+      <AbsolutePoint location="650,1894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/authorizedUser.do,authorizedUser.succeed,/work/authorizedUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1684,494" />
+      <AbsolutePoint location="1684,2974" />
+      <AbsolutePoint location="425,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AddNewFolder.do,AddNewFolder.succeed,/MyFile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2592,2450" />
+      <AbsolutePoint location="2592,2172" />
+      <AbsolutePoint location="590,2172" />
+      <AbsolutePoint location="590,1294" />
+      <AbsolutePoint location="650,1294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteInBoxMessage.do,deleteInBoxMessage.failed,/inBox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1545,1294" />
+      <AbsolutePoint location="1661,1294" />
+      <AbsolutePoint location="1661,1138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/confirmAddWorker.do,confirmAddWorker.succeed,/roleArrange.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2292,2650" />
+      <AbsolutePoint location="2292,2613" />
+      <AbsolutePoint location="3773,2613" />
+      <AbsolutePoint location="3773,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteAuthorizedUser.do,deleteAuthorizedUser.succeed,/work/authorizedUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2449,494" />
+      <AbsolutePoint location="2748,494" />
+      <AbsolutePoint location="2748,2792" />
+      <AbsolutePoint location="451,2792" />
+      <AbsolutePoint location="451,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/planListMore.do,planListMore.succeed,/work/planListMore.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3603,738" />
+      <AbsolutePoint location="3603,1639" />
+      <AbsolutePoint location="340,1639" />
+      <AbsolutePoint location="340,2374" />
+      <AbsolutePoint location="3636,2374" />
+      <AbsolutePoint location="3636,2974" />
+      <AbsolutePoint location="3488,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/FolderDetail.do,FolderDetail.error,/MyFile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,1250" />
+      <AbsolutePoint location="1975,1183" />
+      <AbsolutePoint location="762,1183" />
+      <AbsolutePoint location="762,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/shareCard.do,shareCard.succeed,/card/shareCard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3172,338" />
+      <AbsolutePoint location="3172,437" />
+      <AbsolutePoint location="44,437" />
+      <AbsolutePoint location="44,2542" />
+      <AbsolutePoint location="3113,2542" />
+      <AbsolutePoint location="3113,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/launchMeeting.do,launchMeeting.successd,/meetingAttend.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2583,2050" />
+      <AbsolutePoint location="2583,2035" />
+      <AbsolutePoint location="1136,2035" />
+      <AbsolutePoint location="1136,2108" />
+      <AbsolutePoint location="915,2108" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newDept.do,NewDept.succeed,/dept/addDept.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1969,1494" />
+      <AbsolutePoint location="1969,3174" />
+      <AbsolutePoint location="409,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/draftBox.do,draftBox.fail,/message/draftBox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="472,1338" />
+      <AbsolutePoint location="472,1783" />
+      <AbsolutePoint location="930,1783" />
+      <AbsolutePoint location="930,3118" />
+      <AbsolutePoint location="2219,3118" />
+      <AbsolutePoint location="2219,3099" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userInfoUpdateAction.do,userInfoUpdateAction.successd,/info/userInfoUpdated.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1100,138" />
+      <AbsolutePoint location="1100,446" />
+      <AbsolutePoint location="2710,446" />
+      <AbsolutePoint location="2710,1982" />
+      <AbsolutePoint location="2118,1982" />
+      <AbsolutePoint location="2118,2370" />
+      <AbsolutePoint location="1728,2370" />
+      <AbsolutePoint location="1728,2752" />
+      <AbsolutePoint location="1327,2752" />
+      <AbsolutePoint location="1327,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/getShareCardById.do,getShareCardById.succeed,/card/shareCardList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3634,294" />
+      <AbsolutePoint location="3634,2874" />
+      <AbsolutePoint location="3492,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/CardType.do,cardType.error,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2870,138" />
+      <AbsolutePoint location="2870,383" />
+      <AbsolutePoint location="4000,383" />
+      <AbsolutePoint location="4000,2813" />
+      <AbsolutePoint location="116,2813" />
+      <AbsolutePoint location="116,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/registerMeetingRoomLogDetails.do,registerMeetingRoomLogDetails.failed,/meeting/registerMeetingRoomLogDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1724,1694" />
+      <AbsolutePoint location="1724,3174" />
+      <AbsolutePoint location="1972,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userInfoUpdated.do,userInfoUpdated.successd,/UserInfo.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1688,50" />
+      <AbsolutePoint location="1688,-25" />
+      <AbsolutePoint location="498,-25" />
+      <AbsolutePoint location="498,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Home.do,Home.succeed,/home/home.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="271,494" />
+      <AbsolutePoint location="271,2874" />
+      <AbsolutePoint location="3650,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AddMeetingRoom.do,addMeetingRoom.error,/meeting/addMeetingRoom.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2889,1694" />
+      <AbsolutePoint location="2889,3174" />
+      <AbsolutePoint location="2238,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addSysRole.do,AddSysRole.succeed,showRoles.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1675,2338" />
+      <AbsolutePoint location="1675,2560" />
+      <AbsolutePoint location="2645,2560" />
+      <AbsolutePoint location="2645,3392" />
+      <AbsolutePoint location="2273,3392" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomExcelExport.do,roomExcelExport.fail,/outputGraph.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1989,2450" />
+      <AbsolutePoint location="1989,2209" />
+      <AbsolutePoint location="892,2209" />
+      <AbsolutePoint location="892,2450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/NewMeetingRoom.do,null,/AddMeetingRoom.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2430,1694" />
+      <AbsolutePoint location="2750,1694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Logout.do,Logout.succeed,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="763,2338" />
+      <AbsolutePoint location="763,2387" />
+      <AbsolutePoint location="341,2387" />
+      <AbsolutePoint location="341,2874" />
+      <AbsolutePoint location="123,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/OtherInfoPDF.do,OtherInfoPDF.error,/OtherInfo.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2880,938" />
+      <AbsolutePoint location="2880,1153" />
+      <AbsolutePoint location="1535,1153" />
+      <AbsolutePoint location="1535,5" />
+      <AbsolutePoint location="771,5" />
+      <AbsolutePoint location="771,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchAvailableRoom.do,searchAvailableRoom.fail,/meetingOrder.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,1924" />
+      <AbsolutePoint location="3010,1924" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingDetails.do,meetingDetails.succeed,/meeting/meetingDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1382,2094" />
+      <AbsolutePoint location="1382,3274" />
+      <AbsolutePoint location="131,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/changeInfo.jsp,null,/changeInfo.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="716,3399" />
+      <AbsolutePoint location="716,3531" />
+      <AbsolutePoint location="1469,3531" />
+      <AbsolutePoint location="1469,2738" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/readOutMessage.do,readOutMessage.successd,/message/outBoxDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2939,2738" />
+      <AbsolutePoint location="2939,3336" />
+      <AbsolutePoint location="1331,3336" />
+      <AbsolutePoint location="1331,3350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sysPowerList.do,null,/deleteSysPower.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="907,1894" />
+      <AbsolutePoint location="1250,1894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/launchMeeting.do,launchMeeting.fail,/meetingAttend.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2700,2050" />
+      <AbsolutePoint location="2700,1835" />
+      <AbsolutePoint location="996,1835" />
+      <AbsolutePoint location="996,2094" />
+      <AbsolutePoint location="915,2094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomAlter.do,roomAlter.successd,/adminmeeting/alterRoom.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="476,2338" />
+      <AbsolutePoint location="476,2619" />
+      <AbsolutePoint location="315,2619" />
+      <AbsolutePoint location="315,3336" />
+      <AbsolutePoint location="1035,3336" />
+      <AbsolutePoint location="1035,3299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/setUpRole.do,setUpRole.succeed,/role/setUpRole.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="287,2738" />
+      <AbsolutePoint location="287,3576" />
+      <AbsolutePoint location="3711,3576" />
+      <AbsolutePoint location="3711,3299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/authorize.do,authorize.succeed,/work/configWork.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3290,494" />
+      <AbsolutePoint location="3290,2950" />
+      <AbsolutePoint location="767,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/canlenderSearch.do,canlenderSearch.fail,/work/canlenderSearch.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="321,738" />
+      <AbsolutePoint location="321,1303" />
+      <AbsolutePoint location="344,1303" />
+      <AbsolutePoint location="344,2370" />
+      <AbsolutePoint location="1724,2370" />
+      <AbsolutePoint location="1724,2974" />
+      <AbsolutePoint location="1850,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/monthSearch.do,monthSearch.fail,/work/canlenderSearch.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="778,694" />
+      <AbsolutePoint location="778,2974" />
+      <AbsolutePoint location="1929,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/modifyDept.do,ModifyDept.succeed,/deptList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3474,1538" />
+      <AbsolutePoint location="3474,1554" />
+      <AbsolutePoint location="2626,1554" />
+      <AbsolutePoint location="2626,1538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cardTypeDel.do,CardTypeDel.successd,/CardType.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3178,2450" />
+      <AbsolutePoint location="3178,2209" />
+      <AbsolutePoint location="4060,2209" />
+      <AbsolutePoint location="4060,-55" />
+      <AbsolutePoint location="2870,-55" />
+      <AbsolutePoint location="2870,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/inBoxDetails.do,inBoxDetails.succeed,/message/inBoxDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2577,1050" />
+      <AbsolutePoint location="2577,1044" />
+      <AbsolutePoint location="648,1044" />
+      <AbsolutePoint location="648,3005" />
+      <AbsolutePoint location="1627,3005" />
+      <AbsolutePoint location="1627,3050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingDetails.do,meetingDetails.failed,/meeting/meetingDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1382,2138" />
+      <AbsolutePoint location="1382,2401" />
+      <AbsolutePoint location="1627,2401" />
+      <AbsolutePoint location="1627,2761" />
+      <AbsolutePoint location="237,2761" />
+      <AbsolutePoint location="237,3274" />
+      <AbsolutePoint location="213,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/changeRole.do,changeRole.failed,/roleArrange.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="597,2650" />
+      <AbsolutePoint location="597,2635" />
+      <AbsolutePoint location="3787,2635" />
+      <AbsolutePoint location="3787,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userInfoUpdated.do,userInfoUpdatdfaild,/info/UserInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1688,94" />
+      <AbsolutePoint location="1688,2874" />
+      <AbsolutePoint location="707,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addCard.do,AddCard.succeed,/selfCard.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="286,1294" />
+      <AbsolutePoint location="341,1294" />
+      <AbsolutePoint location="341,316" />
+      <AbsolutePoint location="350,316" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyDept.do,ToModifyDept.succeed,/dept/modifyDept.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3011,1524" />
+      <AbsolutePoint location="3036,1524" />
+      <AbsolutePoint location="3036,2216" />
+      <AbsolutePoint location="2058,2216" />
+      <AbsolutePoint location="2058,2388" />
+      <AbsolutePoint location="1201,2388" />
+      <AbsolutePoint location="1201,3174" />
+      <AbsolutePoint location="1082,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addressInfo.do,addressInfo.successd,/address/address.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1654,938" />
+      <AbsolutePoint location="1654,983" />
+      <AbsolutePoint location="617,983" />
+      <AbsolutePoint location="617,3074" />
+      <AbsolutePoint location="481,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/modifyCard.do,ModifyCard.faild,/toModifyCard.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,264" />
+      <AbsolutePoint location="911,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addressInfo.do,null,/excelExport.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1676,850" />
+      <AbsolutePoint location="1676,783" />
+      <AbsolutePoint location="3475,783" />
+      <AbsolutePoint location="3475,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newWorkConfig.do,null,/addWorkConfig.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="621,494" />
+      <AbsolutePoint location="950,494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/readPlan.do,readPlan.failed,/work/planDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="169,894" />
+      <AbsolutePoint location="169,2974" />
+      <AbsolutePoint location="3715,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addressInfo.do,addressInfo.fail,/address/address.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1676,938" />
+      <AbsolutePoint location="1676,1019" />
+      <AbsolutePoint location="639,1019" />
+      <AbsolutePoint location="639,3096" />
+      <AbsolutePoint location="481,3096" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/readPlan.do,readPlan.succeed,/work/planDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="169,850" />
+      <AbsolutePoint location="169,2950" />
+      <AbsolutePoint location="3759,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newDept.do,null,/addDept.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2088,1494" />
+      <AbsolutePoint location="2150,1494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SearchOtherInfo.do,SearchOtherInfo.succeed,/OtherInfo.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3817,138" />
+      <AbsolutePoint location="3817,353" />
+      <AbsolutePoint location="601,353" />
+      <AbsolutePoint location="601,94" />
+      <AbsolutePoint location="650,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/handleUnsettledRoom.do,handleUnsettledRoom.succeed,manageMeetingRoom.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3640,2338" />
+      <AbsolutePoint location="3640,3301" />
+      <AbsolutePoint location="2608,3301" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingRegDetails.do,meetingRegDetails.succeed,/meeting/meetingRegDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="325,2538" />
+      <AbsolutePoint location="325,3299" />
+      <AbsolutePoint location="2841,3299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/inBox.do,inBox.succeed,/message/inBox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1664,1050" />
+      <AbsolutePoint location="1664,960" />
+      <AbsolutePoint location="2135,960" />
+      <AbsolutePoint location="2135,3036" />
+      <AbsolutePoint location="1021,3036" />
+      <AbsolutePoint location="1021,3050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/NewMessage.do,null,/newUserMessage.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="178,1050" />
+      <AbsolutePoint location="178,1028" />
+      <AbsolutePoint location="3189,1028" />
+      <AbsolutePoint location="3189,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/draftBox.do,null,/draftMessage.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="528,1338" />
+      <AbsolutePoint location="528,1383" />
+      <AbsolutePoint location="3763,1383" />
+      <AbsolutePoint location="3763,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sysPowerList.do,SysPowerList.succeed,/power/sysPowerList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="778,1938" />
+      <AbsolutePoint location="778,1953" />
+      <AbsolutePoint location="1517,1953" />
+      <AbsolutePoint location="1517,3238" />
+      <AbsolutePoint location="2823,3238" />
+      <AbsolutePoint location="2823,3199" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/inBox.do,inbox.succeed,/message/inBox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1654,1050" />
+      <AbsolutePoint location="1654,1035" />
+      <AbsolutePoint location="37,1035" />
+      <AbsolutePoint location="37,3014" />
+      <AbsolutePoint location="1011,3014" />
+      <AbsolutePoint location="1011,3050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/UserInfo.do,UserInfo.succeed,/info/UserInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="468,138" />
+      <AbsolutePoint location="468,205" />
+      <AbsolutePoint location="3347,205" />
+      <AbsolutePoint location="3347,2945" />
+      <AbsolutePoint location="707,2945" />
+      <AbsolutePoint location="707,2899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingLaunch.do,null,/launchMeeting.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2116,2094" />
+      <AbsolutePoint location="2450,2094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DeleteWorkPlan.do,DeleteWorkPlan.succeed,/WorkPlan.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1374,650" />
+      <AbsolutePoint location="1374,583" />
+      <AbsolutePoint location="3469,583" />
+      <AbsolutePoint location="3469,538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ModifyPassword.do,ModifyPassword.succeed,/UserInfo.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1822,264" />
+      <AbsolutePoint location="1985,264" />
+      <AbsolutePoint location="1985,-55" />
+      <AbsolutePoint location="468,-55" />
+      <AbsolutePoint location="468,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Home.do,Home.error,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="160,538" />
+      <AbsolutePoint location="160,613" />
+      <AbsolutePoint location="3940,613" />
+      <AbsolutePoint location="3940,3509" />
+      <AbsolutePoint location="261,3509" />
+      <AbsolutePoint location="261,2892" />
+      <AbsolutePoint location="123,2892" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchInBox.do,searchInBox.succeed,/inBox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,1094" />
+      <AbsolutePoint location="1772,1094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/NewMeetingRoom.do,newMeetingRoom.success,/meeting/addMeetingRoom.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2299,1738" />
+      <AbsolutePoint location="2299,2186" />
+      <AbsolutePoint location="2512,2186" />
+      <AbsolutePoint location="2512,2444" />
+      <AbsolutePoint location="2441,2444" />
+      <AbsolutePoint location="2441,3174" />
+      <AbsolutePoint location="2326,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/manageAllRooms.do,manageAllRooms.fail,/manageRoom.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,2124" />
+      <AbsolutePoint location="3309,2124" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteDept.do,DeleteDept.succeed,/deptList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3786,1538" />
+      <AbsolutePoint location="3786,1813" />
+      <AbsolutePoint location="2536,1813" />
+      <AbsolutePoint location="2536,1538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/DeleteFile.do,DeleteFile.succeed,/FolderDetail.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3470,1250" />
+      <AbsolutePoint location="3470,983" />
+      <AbsolutePoint location="2255,983" />
+      <AbsolutePoint location="2255,1294" />
+      <AbsolutePoint location="2101,1294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/CardType.do,null,/CardTypeAdd.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2991,94" />
+      <AbsolutePoint location="3050,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toModifyCard.do,null,/modifyCard.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="911,294" />
+      <AbsolutePoint location="1250,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/UploadMeetingRecord.do,UploadMeetingRecord.succeed,meetingDetails.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2446,2338" />
+      <AbsolutePoint location="2446,3302" />
+      <AbsolutePoint location="1975,3302" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AddNewFolder.do,AddNewFolder.error,/MyFile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2582,2450" />
+      <AbsolutePoint location="2582,2231" />
+      <AbsolutePoint location="1080,2231" />
+      <AbsolutePoint location="1080,1359" />
+      <AbsolutePoint location="776,1359" />
+      <AbsolutePoint location="776,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newSysRole.do,null,/addSysRole.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1203,2294" />
+      <AbsolutePoint location="1550,2294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/AllSearchWork.do,SearchWork.succeed,/SearchPlan.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2113,711" />
+      <AbsolutePoint location="2450,711" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/otherUserDetail.do,otherUserDetail.success,/info/otherUserDetail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2285,94" />
+      <AbsolutePoint location="2285,2874" />
+      <AbsolutePoint location="1624,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/otherUserDetail.do,otherUserDetail.error,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2285,94" />
+      <AbsolutePoint location="2285,2874" />
+      <AbsolutePoint location="86,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SearchShareFile.do,SearchShareFile.error,/ShareFile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2121,1864" />
+      <AbsolutePoint location="2450,1864" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ShareFile.do,ShareFile.succeed,/filepage/searchShareFile.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2569,1894" />
+      <AbsolutePoint location="2569,3174" />
+      <AbsolutePoint location="3134,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/SearchPlan.do,null,/AllSearchWork.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,694" />
+      <AbsolutePoint location="2113,694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/excelExport.do,ExcelExport.fail,/addressInfo.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3505,850" />
+      <AbsolutePoint location="3505,753" />
+      <AbsolutePoint location="1646,753" />
+      <AbsolutePoint location="1646,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/FileUpload.do,FileUpload.error,/MyFile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2571,1250" />
+      <AbsolutePoint location="2571,1235" />
+      <AbsolutePoint location="784,1235" />
+      <AbsolutePoint location="784,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/messageAfterAlter.do,messageAfterAlter.succussd,/draftBox.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="334,1494" />
+      <AbsolutePoint location="408,1494" />
+      <AbsolutePoint location="408,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/outputGraph.do,outputGraph.successd,/adminmeeting/outputGraph.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="852,2538" />
+      <AbsolutePoint location="852,3449" />
+      <AbsolutePoint location="3141,3449" />
+      <AbsolutePoint location="3141,3299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roomRedirect.do,null,/roomRegist.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1494" />
+      <AbsolutePoint location="901,1494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roleArrange.do,roleArrange.succeed,/role/roleArrange.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,2494" />
+      <AbsolutePoint location="3611,2494" />
+      <AbsolutePoint location="3611,3274" />
+      <AbsolutePoint location="3480,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/manageMeetingRoom.do,manageMeetingRoom.failed,/meeting/manageMeetingRoom.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2907,2338" />
+      <AbsolutePoint location="2907,2583" />
+      <AbsolutePoint location="2113,2583" />
+      <AbsolutePoint location="2113,3274" />
+      <AbsolutePoint location="2150,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/meetingLaunch.do,meetingLaunch.successd,/meeting/meetingLaunch.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1983,2094" />
+      <AbsolutePoint location="1983,3274" />
+      <AbsolutePoint location="432,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchCard.do,SearchCard.succeed,/selfCard.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="300,264" />
+      <AbsolutePoint location="350,264" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletePlan.do,deletePlan.planListMore.succeed,/work/planListMore.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1372,1094" />
+      <AbsolutePoint location="1372,2974" />
+      <AbsolutePoint location="3419,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/dtree.css"/>
+<script type="text/javascript" src="../js/tree.js"></script>
+<script  type="text/javascript" src="../js/newFolder.js"></script>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<title>个人文件夹</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+<div style="color:white; padding-top:4px;">当前位置->个人文件夹</div>
+<hr class="line"/>
+<div style="width: 200px; margin-top: 5px; margin-left:5px; height: 345px; float:left; background-color: #d4d4d2; text-decoration:none; font-size:small; padding-left: 20px;">
+	<p><a href="javascript: d.openAll();">展开</a> | <a href="javascript: d.closeAll();">折叠</a></p>
+ 
+	<script type="text/javascript">
+		<!--
+ 
+		d = new dTree('d');
+ 
+		d.add(0,-1,'我的文件夹','#');
+		d.add(1,0,'Node 1','self.html');
+		d.add(2,0,'Node 2','#');
+		d.add(3,1,'Node 1.1','#');
+		d.add(4,0,'Node 3','#');
+		d.add(5,3,'Node 1.1.1','#');
+		d.add(6,5,'Node 1.1.1.1','#');
+		d.add(7,0,'Node 4','#');
+		d.add(8,1,'Node 1.2','#');
+		d.add(9,0,'My Pictures','#','Pictures I\'ve taken over the years','','','../images/imgfolder.gif');
+		d.add(10,9,'The trip to Iceland','#','Pictures of Gullfoss and Geysir');
+		d.add(11,9,'Mom\'s birthday','#');
+		d.add(12,0,'Recycle Bin','#','','','../images/trash.gif');
+ 
+		document.write(d);
+ 
+		//-->
+	</script>
+	<div>
+		<input type="button" class="longerButton" value="添加新的文件夹" style="margin-top: 10px;" onclick="javascript:openWindow();"/>
+	
+	</div>
+	
+	
+</div>
+
+
+
+<div style="width: 740px; margin-top: 5px; margin-left:5px; height: 345px; float:left; background-color: #d4d4d2; text-decoration:none; font-size:small;">
+	<br/>
+	<br/>
+	
+	<table>
+	<tr>
+		<td><img alt="文件夹使用情况" src="../images/pie.gif" style=" margin-left: 20px;"/></td>
+		<td><p style=" font-size: large; font;">您的文件夹剩余85%</p></td>
+	</tr>
+	</table>
+	<br/>
+	<p class="passage">点击左侧树状菜单打开您的文件夹；您可以对文件夹进行设置为共享、删除、更名操作</p>
+	<p class="passage">单击左侧下方“添加新的文件夹”按钮添加您的自定义网络文件夹</p>
+	<p class="passage">上方饼状图显示您的网络空间使用情况</p>
+	
+	
+	
+	
+	
+	
+</div>
+		
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

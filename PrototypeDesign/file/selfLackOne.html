@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/dtree.css"/>
+<script type="text/javascript" src="../js/tree.js"></script>
+
+<script  type="text/javascript" src="../js/menu.js"></script>
+<title>个人文件夹</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+<div style="color:white; padding-top:4px;">当前位置->个人文件夹</div>
+<hr class="line"/>
+<div style="width: 200px; margin-top: 5px; margin-left:5px; height: 345px; float:left; background-color: #d4d4d2; text-decoration:none; font-size:small; padding-left: 20px;">
+	<p><a href="javascript: d.openAll();">展开</a> | <a href="javascript: d.closeAll();">折叠</a></p>
+ 
+	<script type="text/javascript">
+		<!--
+ 
+		d = new dTree('d');
+ 
+		d.add(0,-1,'我的文件夹','selfDefault.html');
+		d.add(1,0,'Node 1','#');
+		d.add(2,0,'Node 2','#');
+		d.add(3,1,'Node 1.1','#');
+		d.add(4,0,'Node 3','#');
+		d.add(5,3,'Node 1.1.1','#');
+		d.add(6,5,'Node 1.1.1.1','#');
+		d.add(7,0,'Node 4','#');
+		d.add(8,1,'Node 1.2','#');
+		d.add(9,0,'My Pictures','#','Pictures I\'ve taken over the years','','','../images/imgfolder.gif');
+		d.add(10,9,'The trip to Iceland','#','Pictures of Gullfoss and Geysir');
+		d.add(11,9,'Mom\'s birthday','#');
+		d.add(12,0,'Recycle Bin','#','','','../images/trash.gif');
+ 
+		document.write(d);
+ 
+		//-->
+	</script>
+	<div>
+		<input type="button" class="longerButton" value="添加新的文件夹" style="margin-top: 10px;"/>
+	
+	</div>
+	
+	
+</div>
+<div style="width: 740px; margin-top: 5px; margin-left:5px; height: 345px; float:left; background-color: #d4d4d2; text-decoration:none; font-size:small;">
+<div style="width: 740px; height: 75px; float:left; background-color: #fcfbbb; text-decoration:none; font-size:small;">
+	<table align="center" cellpadding="5">
+		<tr style="background-color: #fcfbbb;">
+			<td><input type="button" class="longerButton" value="删除此文件夹"/></td>
+			<td><input type="button" class="longerButton" value="将此文件夹设为共享"/></td>
+			<td><input type="button" class="longerButton" value="将此文件夹设为私有"/></td>
+			<td><input type="button" class="longerButton" value="更改文件夹名称"/></td>
+		</tr>
+		<tr style="background-color: white;">
+			<td colspan="3"><input type="file" style="width: 100%;"/></td>
+			<td><input type="button" class="longerButton" value="上传文件" /></td>
+		</tr>
+	</table>
+
+</div>
+	<table class="table" cellpadding="10" cellspacing="0" >
+		<thead class="tableHead">文件夹名称</thead>
+		<tr>
+			<td class="tableColumeHead">文件名称</td>
+			<td class="tableColumeHead">上传日期</td>
+			<td class="tableColumeHead"></td>
+			<td class="tableColumeHead"></td>
+
+		</tr>
+		<tr>
+			<td>关于实训的具体安排.doc</td>
+			<td>2009-5-27</td>
+			<td><a href="#">下载</a></td>
+			<td><a href="#">删除</a></td>
+
+		</tr>
+		<tr>
+			<td>变形金刚图鉴（霸天虎完全版，本人强烈推荐）.rar</td>
+			<td>2008-1-5</td>
+			<td><a href="#">下载</a></td>
+			<td><a href="#">删除</a></td>
+
+		</tr>
+		<tr>
+			<td>Scorpions 最强专辑 《摇滚无敌 UNBREAKABLE》.rar</td>
+			<td>2007-6-8</td>
+			<td><a href="#">下载</a></td>
+			<td><a href="#">删除</a></td>
+
+		</tr>
+		<tr>
+			<td>文件夹之中的某一个文件</td>
+			<td>2009-7-2</td>
+			<td><a href="#">下载</a></td>
+			<td><a href="#">删除</a></td>
+		</tr>
+		</table>
+
+</div>
+		
+
+	
+	
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

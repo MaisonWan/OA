@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<title>OA办公系统-系统管理</title>
+</head>
+<script language="javascript">
+	function submit()
+	{
+		alert("提交成功");
+		window.location = "roleManage.html";
+	}
+</script>
+
+
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content" style="height:auto;">
+
+	<div style="color: #FFFFFF; padding-top: 4px;">当前位置->角色管理</div>
+	<hr class="line">
+	<table width="380" cellpadding="4" cellspacing="0" class="table">
+		<thead class="tableHead">添加新的角色</thead>
+		<tr>
+			<td class="tableColumeHead" align="right">角色编号：</td>
+			<td align="left"><input name="employeeID"></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right" >角色名：</td>
+			<td align="left">
+				<input name="employeeName">
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">权   限：</td>
+			<td align="left">
+			<ul id="tree">
+				<li><input type=checkbox>个人办公管理
+					<ul>
+					<li><input type=checkbox>添加修改个人信息</li>
+					<li><input type=checkbox>修改密码</li>
+					<li><input type=checkbox>日程管理</li>
+					<li><input type=checkbox>在线信息管理</li>
+					<li><input type=checkbox>通讯录管理</li>
+					</ul>
+				</li>
+			</ul>
+			<ul id="tree1">
+				<li><input type=checkbox>会议管理
+				</li>
+			</ul>
+			<ul id="tree2">
+				<li><input type=checkbox>系统管理
+					<ul>
+					<li><input type=checkbox>员工信息管理</li>
+					<li><input type=checkbox>部门管理</li>
+					<li><input type=checkbox>角色管理</li>
+					
+					</ul>
+				</li>
+			</ul>
+			</td>
+		</tr>
+		
+</table>
+	<br>
+	
+	<center>
+		<button class="shortButton" name="delete" onClick=submit()>提交</button>
+		<button class="shortButton" name="delete" onClick="">重置</button>
+		<button class="shortButton" name="delete" onClick="location.href='roleManage.html'">返回</button>
+	</center>
+	
+	<!-- 这个是树状选择 -->
+	<script language="javascript">
+	
+	var arr = tree.getElementsByTagName('input')
+	for(var i=0; i<arr.length; i++){
+		var input = arr[i]
+		if(input.type = 'checkbox'){
+			input.onclick = ClickInput
+		}
+	}
+	
+	function ClickInput(){
+		var li = this.parentElement;
+		var arr = li.getElementsByTagName('input')
+		for(var i=0; i<arr.length; i++){
+			var input = arr[i]
+			if(input.type == 'checkbox'){
+				input.checked = this.checked
+			}
+		}
+		var li = li.parentElement.parentElement
+		
+		while(li.tagName.toLowerCase() == 'li'){
+			var input = li.childNodes[0]
+			if(input.tagName.toLowerCase() == 'input'){
+				input.checked = this.checked
+			}
+			li = li.parentElement.parentElement
+		}
+	}
+	
+	</script>
+	
+	<!-- 这个是树状选择 -->
+	<script language="javascript">
+	
+	var arr = tree1.getElementsByTagName('input')
+	for(var i=0; i<arr.length; i++){
+		var input = arr[i]
+		if(input.type = 'checkbox'){
+			input.onclick = ClickInput
+		}
+	}
+	
+	function ClickInput(){
+		var li = this.parentElement;
+		var arr = li.getElementsByTagName('input')
+		for(var i=0; i<arr.length; i++){
+			var input = arr[i]
+			if(input.type == 'checkbox'){
+				input.checked = this.checked
+			}
+		}
+		var li = li.parentElement.parentElement
+		
+		while(li.tagName.toLowerCase() == 'li'){
+			var input = li.childNodes[0]
+			if(input.tagName.toLowerCase() == 'input'){
+				input.checked = this.checked
+			}
+			li = li.parentElement.parentElement
+		}
+	}
+	
+	</script>
+	
+	<!-- 这个是树状选择 -->
+	<script language="javascript">
+	
+	var arr = tree2.getElementsByTagName('input')
+	for(var i=0; i<arr.length; i++){
+		var input = arr[i]
+		if(input.type = 'checkbox'){
+			input.onclick = ClickInput
+		}
+	}
+	
+	function ClickInput(){
+		var li = this.parentElement;
+		var arr = li.getElementsByTagName('input')
+		for(var i=0; i<arr.length; i++){
+			var input = arr[i]
+			if(input.type == 'checkbox'){
+				input.checked = this.checked
+			}
+		}
+		var li = li.parentElement.parentElement
+		
+		while(li.tagName.toLowerCase() == 'li'){
+			var input = li.childNodes[0]
+			if(input.tagName.toLowerCase() == 'input'){
+				input.checked = this.checked
+			}
+			li = li.parentElement.parentElement
+		}
+	}
+	
+	</script>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

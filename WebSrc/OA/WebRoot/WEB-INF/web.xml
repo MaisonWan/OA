@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>action</servlet-name>
+    <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+    <init-param>
+      <param-name>config</param-name>
+      <param-value>/WEB-INF/struts-config.xml</param-value>
+    </init-param>
+    <init-param>
+      <param-name>debug</param-name>
+      <param-value>3</param-value>
+    </init-param>
+    <init-param>
+      <param-name>detail</param-name>
+      <param-value>3</param-value>
+    </init-param>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>action</servlet-name>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>getimg</servlet-name>
+     <servlet-class>com.icss.hit.component.GetValidateCode</servlet-class>
+
+   </servlet>
+  <servlet>
+    <servlet-name>DownLoad</servlet-name>
+    <servlet-class>com.icss.hit.servlet.action.DownLoad</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+
+      <servlet-name>getimg</servlet-name>
+      <url-pattern>/GetValidateCode</url-pattern>
+   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoad</servlet-name>
+    <url-pattern>/DownLoad</url-pattern>
+  </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>ajaxServlet</servlet-name>
+    <servlet-class>com.icss.hit.servlet.action.AutoSuggest</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ajaxServlet</servlet-name>
+    <url-pattern>/servlet/ajaxServlet</url-pattern>
+  </servlet-mapping>
+   
+  <filter>   
+    <filter-name>EncodingFilter</filter-name> 
+    <filter-class>com.icss.hit.component.EncodingFilter</filter-class>   
+    <init-param>
+        <param-name>encoding</param-name>   
+        <param-value>UTF-8</param-value>   
+    </init-param>   
+  </filter>
+  <filter-mapping>
+  	<filter-name>EncodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <filter>   
+    <filter-name>ActionFilter</filter-name> 
+    <filter-class>com.icss.hit.component.StrutsActionFilter</filter-class>     
+  </filter>
+  <filter-mapping>
+  	<filter-name>ActionFilter</filter-name>
+  	<url-pattern>*.do</url-pattern>
+  	<url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+    <error-page>
+  	<error-code>404</error-code>
+  	<location>/error.jsp</location>
+  </error-page>
+    <error-page>
+  	<error-code>500</error-code>
+  	<location>/error.jsp</location>
+  </error-page>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+</web-app>
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<title>OA办公系统-名片夹分类</title>
+<script language="javascript">
+	function add()
+	{
+		if(document.myform.typename.value == "" )
+		{
+			alert('名片夹分类名称不能为空！');
+			return false;
+		}
+		location.href = 'cardTypeAdd.html';
+	}
+</script>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+</div>
+<div id="content" style="font-size:13px ">
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->名片夹分类</div>
+<hr class="line">
+<form name="myform">
+<table class="table" cellpadding="6" cellspacing="0" width="50%">
+	<thead class="tableHead">名片夹分类列表</thead>
+	<div><input name="type" type="button" value="添加分类" class="longButton" onclick="add()"/>
+	<input name="typename" type="text" size="38" /></div>
+    <tr>
+      <td class="tableColumeHead">分类名称</td>
+      <td class="tableColumeHead">名片数量</td>
+      <td class="tableColumeHead">设为共享</td>
+      <td class="tableColumeHead">重命名</td>
+      <td class="tableColumeHead">操作</td>
+    </tr>
+    <tr>
+      <td>我的名片夹</td>
+      <td>12</td>
+      <td><a href="#">设为共享</a></td>
+      <td><font color="#FF0000">------</font></td>
+      <td><font color="#FF0000">------</font></a></td>
+    </tr>
+    <tr>
+      <td>同事</td>
+      <td>22</td>
+      <td><a href="">取消共享</a></td>
+      <td><a href="#"><font color="#FF0000">重命名</font></a></td>
+      <td><a href="#" onclick="alert('该分类不为空，不能删除');">删除<a></a></td>
+    </tr>
+    <tr>
+      <td>顾客</td>
+      <td>43</td>
+      <td><a href="#">设为共享</a></td>
+      <td><a href="#"><font color="#FF0000">重命名</font></a></td>
+      <td><a href="#">删除<a></a></td>
+    </tr>
+    <tr>
+      <td>同学</td>
+      <td>32</td>
+	  <td><a href="#">设为共享</a></td>
+	  <td><a href="#"><font color="#FF0000">重命名</font></a></td>
+      <td><a href="#">删除<a></a></td>
+    </tr>
+    <tr>
+      <td>亲戚</td>
+      <td>12</td>
+      <td><a href="#">设为共享</a></td>
+      <td><a href="#"><font color="#FF0000">重命名</font></a></td>
+      <td><a href="#">删除<a></a></td>
+    </tr>
+  </table>
+		</form>
+  <div style="text-align:center ">
+  	第1页　共1页　首页　上一页　下一页　尾页 转至
+   <select size="1" onChange="window.location = this.options(this.selectedIndex).value">
+   <option selected>1</option>
+   </select> 
+   页</div>
+		</td>
+	</tr>
+ 	
+</table></div>
+  </div>
+  
+</div>
+<div id="bottom"></div>
+</body>
+</html>

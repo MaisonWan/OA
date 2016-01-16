@@ -1,0 +1,55 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<link type="text/css" rel="stylesheet" href="../css/special_style.css"/>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<title>OA办公系统-发件箱</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+</div>
+<div id="content" style="font-size:13px ">
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->新建留言</div>
+<hr class="line">
+<table width="650" align="center" cellpadding="0" cellspacing="0" id="myMessageTable">
+  <tr>
+  	<td colspan="2"  height="28" bgcolor="#faf67c"><b>新建留言</b></td>
+  </tr>
+  <tr>
+    <td width="100" height="30" align="right" bgcolor="#EBEBEB">收件人员工号:</td>
+    <td width="548" bgcolor="#EBEBEB"><input type="text" id="clerkId" name="clerkId" />
+    <font color="#FF0000">*</font></td>
+  </tr>
+  <tr>
+    <td height="30" align="right" bgcolor="#EBEBEB">发件人姓名:</td>
+    <td bgcolor="#EBEBEB"><input type="text" id="clerkName" name="clerkName" />
+    <font color="#FF0000"> *</font></td>
+  </tr>
+  <tr>
+    <td height="30" align="right" bgcolor="#EBEBEB">标题:</td>
+    <td bgcolor="#EBEBEB"><input name="messageTitle" type="text" id="messageTitle" size="70" /></td>
+  </tr>
+  <tr>
+    <td height="200" align="right" bgcolor="#EBEBEB">内容:</td>
+    <td bgcolor="#EBEBEB"><textarea name="messageContent" cols="70" rows="10" id="messageContent" ></textarea></td>
+  </tr>
+  <tr>
+    <td height="28" bgcolor="#EBEBEB">&nbsp;</td>
+    <td bgcolor="#EBEBEB">
+	   <input class="shortButton" name="button" type="button" value="发送" onClick="javascript:alert('发送成功');location.href='outbox.html'"/> 
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	   <input type="submit" name="Submit" class="shortButton" value="保存草稿" onClick="javascript:alert('保存成功');location.href='draftbox.html'">
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	   <input type="submit" name="Submit" class="shortButton" value="返回" onClick="javascript:location.href='inbox.html'">
+      </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</div>
+</div>
+<div id="bottom"></div>
+</body>
+</html>

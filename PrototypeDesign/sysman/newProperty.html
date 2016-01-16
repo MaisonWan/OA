@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<title>OA办公系统-系统管理</title>
+</head>
+<script language="javascript">
+	function submit()
+	{
+		alert("提交成功");
+		window.location = "alterProperty.html";
+	}
+</script>
+
+
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content" style="height:auto;">
+
+	<div style="color: #FFFFFF; padding-top: 4px;">当前位置->角色管理</div>
+	<hr class="line">
+	<table width="342" cellpadding="4" cellspacing="0" class="table">
+		<thead class="tableHead">添加新的权限</thead>
+		<tr>
+			<td class="tableColumeHead" align="right">权限：</td>
+			<td align="left">
+			<ul id="tree">
+				<li><input class="tableColumeHead" />
+					<ul>
+					<li><input class="tableColumeHead" /></li>
+					<li><input class="tableColumeHead" /></li>
+					<li><input class="tableColumeHead" /></li>
+					<li><input class="tableColumeHead" /></li>
+					<li><input class="tableColumeHead" /></li>
+					</ul>
+				</li>
+			</ul>
+			</td>
+		</tr>
+		
+</table>
+	<br>
+	
+	<center>
+		<button class="shortButton" name="delete" onClick=submit()>提交</button>
+		<button class="shortButton" name="delete" onClick="">重置</button>
+		<button class="shortButton" name="delete" onClick="location.href='alterProperty.html'">返回</button>
+	</center>
+
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/menu.js"></script>
+<title>OA办公系统-日程安排</title>
+</head>
+<script language="javascript">
+	function submit()
+	{
+		alert("提交成功");
+		window.location = "Plan.html";
+	}
+</script>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+
+	<div style="color: #FFFFFF; padding-top: 4px;">当前位置->添加日程安排</div>
+	<hr class="line">
+	<table class="table" cellpadding="4" cellspacing="0">
+		<thead class="tableHead">添加日程安排</thead>
+		<tr>
+			<td class="tableColumeHead" align="right">日程安排名称</td>
+			<td align="left"><input name="PlanName"></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">工作期限</td>
+			<td align="left">
+				<input name="dealLine1"> - 
+				<input name="deadLine2">
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">工作时间</td>
+			<td align="left">
+				<input name="workTime1"> - 
+				<input name="workTime2">
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="tableColumeHead" height="29" align="right">被安排人</td>
+			<td align="left"><select name="arranger" class="longerButton">
+				<option value="本人" selected="selected">本人</option>
+				<option value="陈世美">陈世美</option>
+				<option value="杨阳">杨阳</option>
+				<option value="谢青">谢青</option>
+				<option value="王克">王克</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">安排内容</td>
+			<td align="left" height="100"><textarea name="Content" cols="40" rows="5"></textarea></td>
+		</tr>
+</table>
+	<br>
+	
+	<center>
+		<button class="shortButton" name="delete" onClick=submit()>提交</button>
+		<button class="shortButton" name="delete" onClick="">重置</button>
+		<button class="shortButton" name="delete" onClick="location.href='Plan.html'">返回</button>
+	</center>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

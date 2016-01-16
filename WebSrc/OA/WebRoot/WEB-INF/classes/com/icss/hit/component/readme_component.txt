@@ -1,0 +1,46 @@
+包com.icss.hit.component中，主要是公共的组件。
+
+ChangeColor.java
+CreatPdf.java
+	实现了对与系统中的PDF文件的导出。
+DateUtils.java
+	实现了对于日期中的一些处理。
+DrawLine.java
+	实现了现状图的生成。
+DrawPie.java
+	实现了饼状图的生成。
+DrawPieConfig.java
+	对于饼状图生成的一些设置。
+EncodingFilter.java
+	系统中的拦截器，实现了页面间传值的字符集的设定。
+Excel.java
+	实现了系统中导出Excel表格文件的操作。
+Font.java
+	对于PDF文件生成中的字体。
+GetValidateCode.java
+	用户生成登录验证码
+MD5.java
+	实现了MD5加密
+PageBean.java
+	实现了，网页中分页下端的链接的生成。
+PdfCell.java
+	对于PDF文件生成的一些操作。
+PdfDocument.java
+	PDF文件中文档的生成。
+PdfElement.java
+	PDF文件中的元素。
+PdfFont.java
+	PDF文件的字体。
+PdfImage.java
+	PDF文件中的图片。
+PdfParagraph.java
+	PDF文件中的图表。
+PdfPart.java
+	PDF文件中的元素。
+PdfTable.java
+	PDF文件中表格的生成。
+StrutsActionFilter.java
+	对于*.do的验证，未登录无法进入页面。以及*.jsp的禁止调用
+XYPointList.java
+	对于现状图生成中的坐标实现。
+

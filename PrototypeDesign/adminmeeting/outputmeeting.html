@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<script>
+function goto(url)
+{
+	window.location.replace(url);
+}
+function msg(msg)
+{
+alert(msg);
+}
+</script>
+<title>OA办公系统-会议管理</title>
+
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content" style="height:auto; ">
+
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->会议管理</div>
+<hr class="line"><div style="margin:'margin-center'">
+<table class="table"  cellpadding="6" cellspacing="0">
+<thead class="tableHead">会议报表导出</thead>
+        <tr>
+          <td>选择查询：
+		  	<select name="select_Factor" id="select" >
+              <option > </option>
+              <option value="dept_" selected>全部</option>
+              <option value="employee_Number">申请人</option>
+              <option value="employee_Name">会议名称</option>
+              <option value="employee_Department">会议日期</option>
+              <option value="employee_Pho">会议地点</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 具体查询条件：<input name="text" type="text" size="22">
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<input name="query" type="button" class="longButton"  value="查询"  />
+			&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+      </table>
+	<table class="table" cellpadding="6" cellspacing="0" width="66%">
+      <thead class="tableHead">
+      </thead>
+	  <tr>
+        <td class="tableColumeHead">编号</td>
+	    <td class="tableColumeHead">发起人</td>
+	    <td class="tableColumeHead">会议名称</td>
+	    <td class="tableColumeHead">地点</td>
+	    <td class="tableColumeHead">会议开始时间</td>
+	    <td class="tableColumeHead">详细信息</td>
+		
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>万里鹏</td>
+        <td>关于请客的若干问题</td>
+        <td>A201</td>
+        <td>2009-7-22 19:00</td>
+        <td><a href="meetingdetail.html" target="_self">点击进入</a></td>
+		
+		
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>郭勇</td>
+        <td>关于实训的若干问题</td>
+        <td>A110</td>
+        <td>2009-7-23 20:30</td>
+        <td><a href="#">点击进入</a></td>
+		
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>赵雅丽</td>
+        <td>关于旅游的若干问题</td>
+        <td>A111</td>
+        <td>2009-7-24 15:30</td>
+        <td><a href="#">点击进入</a></td>
+		
+      </tr>
+      <tr>
+        <td>004</td>
+        <td>章小伟</td>
+        <td>学习研讨会</td>
+        <td>A111</td>
+        <td>2009-7-24 21:00</td>
+        <td><a href="#">点击进入</a></td>
+		
+      </tr>
+      <tr>
+        <td>005</td>
+        <td>许达</td>
+        <td>css技术讲座安排</td>
+        <td>A114</td>
+        <td>2009-7-25 10:00</td>
+        <td><a href="#">点击进入</a></td>
+		
+      </tr>
+      <tr>
+        <td>006</td>
+        <td>朱金彪</td>
+        <td>员工代表大会</td>
+        <td>C115</td>
+        <td>2009-7-25 17:00</td>
+        <td><a href="#">点击进入</a></td>
+		
+      </tr>
+      <tr>
+        <td>007</td>
+        <td>刘欢</td>
+        <td>关于放假的安排</td>
+        <td>D110</td>
+        <td>2009-7-26 10:30</td>
+        <td><a href="#">点击进入</a></td>
+		
+      </tr>
+	 <tr>
+	   <td colspan="8" align="center">第1页　共1页　首页　上一页　下一页　尾页 &nbsp;转至
+		  <select name="select" >
+			<option selected>1</option>
+		  </select>
+	页	</td>
+	</tr>
+	
+    </table>
+	<table align="center" cellpadding="6" cellspacing="0">
+	
+		<tr ><td> <input type="button" class="longerButton" value="导出会议使用报表"/></td></tr>
+	</table>
+	<br/>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

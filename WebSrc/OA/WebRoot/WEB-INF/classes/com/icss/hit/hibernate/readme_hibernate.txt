@@ -1,0 +1,1 @@
+包com.icss.hit.hibernate中，包含了系统中Hibernate的设置。

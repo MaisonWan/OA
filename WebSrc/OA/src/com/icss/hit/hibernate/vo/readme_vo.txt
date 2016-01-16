@@ -1,0 +1,1 @@
+com.icss.hit.vo中包含所有Hibernate中与数据对应的配置文件，以及POJO

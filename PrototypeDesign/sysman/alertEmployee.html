@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<title>OA办公系统-系统管理</title>
+</head>
+<script language="javascript">
+	function submit()
+	{
+		alert("提交成功");
+		window.location = "employeeArran.html";
+	}
+</script>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content" style="height:auto; ">
+
+	<div style="color: #FFFFFF; padding-top: 4px;">当前位置->职员管理</div>
+	<hr class="line">
+	<table class="table" cellpadding="4" cellspacing="0">
+		<thead class="tableHead">添加职员信息</thead>
+		<tr>
+			<td class="tableColumeHead" align="right">员工编号：</td>
+			<td align="left"><input type="text" value="101"/></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">员工姓名：</td>
+			<td align="left"><input type="text" value="小麦" /></td>
+		</tr>
+		<tr>
+		  <td class="tableColumeHead" align="right">密 码：</td>
+		  <td align="left"><input name="password" type="password" value="123456789" /></td>
+	  </tr>
+		<tr>
+			<td class="tableColumeHead" align="right">重复密码：</td>
+			<td align="left"><input type="password" value="123456789" /></td>
+		</tr>
+		
+		<tr>
+			<td class="tableColumeHead" align="right">员工性别：</td>
+			<td align="left">
+				<input type="radio" name="man" value="男" checked="checked"/>男 
+				<input type="radio" name="man" value="男" />女 
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">员工年龄：</td>
+			<td align="left"><input type="text" value="22" /></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">部  门：</td>
+			<td align="left">
+				<select style="width:150px">
+					<option>科技部</option>
+					<option>销售部</option>
+					<option>研发部</option>
+					<option selected="selected">人事部</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">职  位：</td>
+			<td align="left">
+				<select style="width:150px">
+					<option selected="selected">员工</option>
+					<option>经理</option>
+					<option>主任</option>
+					<option>系统管理员</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">联系方式：</td>
+			<td align="left"><input type="text" value="13005458512 " /></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">电子邮件：</td>
+			<td align="left"><input type="text" value="fabf@sina.com " /></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">系统角色：</td>
+			<td align="left">
+				<select style="width:150px">
+					<option selected="selected">普通员工</option>
+					<option>部门经理</option>
+					<option>系统管理员</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">爱  好：</td>
+			<td align="left"><input type="text" value="打篮球 " /></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">个人介绍：</td>
+			<td align="left"><textarea name="selfIntro" cols="40" rows="8">我是一个天使</textarea></td>
+		</tr>
+		
+</table>
+	<br>
+	
+	<center>
+		<button class="shortButton" name="delete" onClick=submit()>提交</button>
+		<button class="shortButton" name="delete" onClick="">重置</button>
+		<button class="shortButton" name="delete" onClick="location.href='employeeArran.html'">返回</button>
+	</center>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

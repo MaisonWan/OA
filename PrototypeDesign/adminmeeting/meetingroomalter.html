@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<script>
+function msg(msg)
+{
+alert(msg);
+}
+function goto(url)
+{
+   window.location.replace(url);
+}
+</script>
+<title>OA办公系统办公室修改</title></head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+<div id="content" style="font-size:13px;">
+<div style="color: #FFFFFF; padding-top: 4px;">当前位置->会议室修改</div>
+<hr class="line"><div style="margin:'margin-center'">
+  <table width="650" align="center" cellpadding="0" cellspacing="0" id="myMessageTable">
+  <tr>
+  	<td colspan="2"  height="28" bgcolor="#faf67c"><strong>会议室修改</strong></td>
+  </tr>
+  <tr>
+    <td width="100" height="30" align="right" bgcolor="#EBEBEB">编号:</td>
+    <td width="548" bgcolor="#EBEBEB">001<font color="#FF0000">*</font></td>
+  </tr>
+  <tr>
+    <td height="30" align="right" bgcolor="#EBEBEB">名称:</td>
+    <td bgcolor="#EBEBEB"><input type="text" id="clerkName" name="clerkName" value="A201" />
+    <font color="#FF0000"> *</font></td>
+  </tr>
+  <tr>
+    <td height="30" align="right" bgcolor="#EBEBEB">可容纳人数:</td>
+    <td bgcolor="#EBEBEB"><input name="messageTitle" type="text" id="messageTitle" value="50"  />人</td>
+  </tr>
+  <tr>
+    <td height="200" align="right" bgcolor="#EBEBEB">备注:</td>
+    <td bgcolor="#EBEBEB"><textarea name="messageContent" cols="70" rows="10" id="messageContent" >设备良好，空调有故障</textarea></td>
+  </tr>
+  <tr>
+    <td height="28" bgcolor="#EBEBEB">&nbsp;</td>
+    <td bgcolor="#EBEBEB">
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="submit1" type="button" class="longButton" value="修改" onclick="msg('修改成功！');goto('managerroom.html')"  />
+      </td>
+  </tr>
+</table>
+	
+	
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

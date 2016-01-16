@@ -1,0 +1,137 @@
+# Resources for parameter 'com.icss.hit.struts.ApplicationResources'
+# Project OA
+
+Login.NullUsername = 帐号不能为空
+Login.NullPassword = 密码不能为空
+Login.NullCode = 验证码不能为空
+Login.TooLongUsername = 帐号长度不合法
+Login.TooLongPassword = 密码长度不合法
+Login.ErrorCode = 验证码错误
+Login.Error = 帐号或者密码错误
+Login.Logined = 帐号已经在其他地方登陆
+
+UserInfoUpdate.EmailTooLong=邮件地址过长
+UserInfoUpdate.TelTooLong=办公电话号码过长
+UserInfoUpdate.CellPhoneTooLong=手机号码过长
+UserInfoUpdate.Emailillegal=电子邮件不合法
+UserInfoUpdate.Telillegal=办公电话格式不合法
+UserInfoUpdate.Cellphoneillegal=手机号码格式不合法
+
+SearchOtherInfo.suUserError=关键词不能为空
+
+SearchCard.nameCompError
+
+CdAdd.EmailTooLong=邮件地址过长
+CdAdd.TelTooLong=办公电话过长
+CdAdd.NameIsNull=姓名为空
+CdAdd.CellPhoneTooLong=手机号码过长
+CdAdd.Emailillegal=电子邮件不合法
+CdAdd.Cellphoneillegal=手机号码不合法
+CdAdd.faxillegal=传真号不合法
+CdAdd.Telillegal=办公电话不合法
+CdAdd.CardTypeIsNull=所属名片夹为空
+
+
+CdModify.EmailTooLong=邮件地址过长
+CdModify.TelTooLong=办公电话过长
+CdModify.NameIsNull=姓名为空
+CdModify.CellPhoneTooLong=手机号码过长
+CdModify.Emailillegal=电子邮件不合法
+CdModify.Cellphoneillegal=手机号码不合法
+CdModify.faxillegal=传真号不合法
+CdModify.Telillegal=办公电话不合法
+cdModify.nameillegal=名片夹分类为空
+
+
+ModifyPassword.NullOldPassword=原始密码不能为空
+ModifyPassword.TooLongRepeatPassword=确认密码过长
+ModifyPassword.TooLongOldPassword=原始密码过长
+ModifyPassword.NullNewPassword=新密码不能为空
+ModifyPassword.TooLongNewPassword=新密码过长
+ModifyPassword.NullRepeatPassword=确认密码不能为空
+ModifyPassword.TooLongRepeatPassword=确认密码过长
+ModifyPassword.RepeatPasswordError=两次密码输入不一致
+ModifyPassword.OldPasswordError=原始密码错误
+
+Message.NotNull=标题不能为空
+Users.NotNull=收件人不能为空
+
+FileUploadProcess.TooLarge=文件大小超出限制
+FileUploadProcess.Error=文件上传错误
+FileUploadProcess.FileTypeError=文件类型不合法
+
+AddMeetingRoom.roomNameNull=会议室名称不能为空
+AddMeetingRoom.roomNameTooLong=会议室名称过长
+AddMeetingRoom.roomDescribeTooLong=会议室备注过长
+AddMeetingRoom.roomCapacityNull=会议室容量不能为空
+AddMeetingRoom.roomCapacityNotNumic=非法输入
+AddMeetingRoom.roomNameExist=会议室名称已存在
+
+Meeting.NotANumber=数字输入不合法
+Meeting.TimeFormatWrong=时间格式不正确
+Meeting.TimeWrong=起始时间不能大于终止时间
+
+Meeting.TimeFormatWrong=时间格式不正确
+
+time.NotNull=时间不能为空
+sum.NotNull=会议参与人不能为空
+meetingTitle.NotNull=会议标题不能为空
+content.NotNull=会议内容不能为空
+conflict.Error=时间冲突，不能发起会议
+meetingRoom.NotNull=会议室不能不选择
+
+Meeting.StartEnd=起始时间和终止时间必须同时输入
+roomError.Error=查询错误或者所删会议室的会议室申请不为空
+containError.Error=容纳人数不能为空或者不是数字
+nameError.Error=房间名不能为空
+
+WorkAdd.TimeWrong=结束时间早于开始时间
+WorkAdd.TitleIsNull=安排名称为空
+WorkAdd.TitleIsTooLong=安排名称过长
+WorkAdd.BeginTimeIsNull=开始时间为空
+WorkAdd.EndTimeIsNull=结束时间为空
+WorkAdd.ContentIsNull=安排内容为空
+
+
+SdAdd.NameIsNull = 部门名称不能为空
+SdAdd.Telillegal = 电话号码不合法
+
+SptAdd.SptNameIsNull=权限类别为空
+SpAdd.SpNameIsNull=权限名称为空
+
+WorkAdd.Timeconflict=时间安排冲突
+
+DeleteDept.Exist=有员工存在于该部门
+
+
+SrAdd.SrNameIsNull=角色名字为空
+
+AddWorker.UidIsNull=员工号不能为空
+AddWorker.UsernameIsNull=姓名不能为空
+AddWorker.PasswordIsNull=密码不能为空
+
+SrAdd.SrNameIsNull=角色名字为空
+DeleteSysPower.Exist=有角色使用该权限
+
+NewCardType.cardTypeNameNull=名片夹名字不能为空
+NewCardType.cardTypeNameTooLong=名片夹名字过长
+NewCardType.cardTypeNameRepeat=名字已经存在
+
+meetingName.NotNull=会议名称不能为空
+meetingPlace.NotNull=会议地点不能为空
+beginTime.NotNull=开始时间不能为空
+endTime.NotNull=结束时间不能为空
+attendSum.NotNull=参加人数不能为空
+meetingContent.NotNull=会议内容不能为空
+timeError.Error=会议时间为空或对会议室时间冲突
+Integer.IntegerError=参加人数必须是数字
+UserError.Error=用户ID使用错误
+
+timeAfter.Error=时间先后顺序错误
+
+AddWorker.UidIsNull=员工号不能为空
+AddWorker.UsernameIsNull=姓名不能为空
+AddWorker.PasswordIsNull=密码不能为空
+
+timeAfter.Error=时间先后顺序错误
+timeConflict.conflict=时间冲突

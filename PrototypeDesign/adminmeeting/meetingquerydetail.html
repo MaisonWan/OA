@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<script >
+function msg(msg)
+{
+	alert(msg);
+}
+function goto(url)
+{
+	window.location.replace(url);
+}
+</script>
+<title>OA办公系统查询详情</title>
+</head>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+
+
+	<table class="table">
+	<thead class="tableHead">
+		查询会议室
+	</thead>
+		<tr>
+			<td>申请人：
+			</td>
+			<td style="width: 10px">
+			<input name="text1" type="text"  />
+			</td>
+		</tr>
+		<tr>
+			<td>会议名称：
+			</td>
+			<td style="width: 10px">
+			<input name="text2" type="text"  />
+			</td>
+		</tr>
+		<tr>
+			<td>
+			开始使用日期：
+			</td>
+			<td >
+				<select name="select2">
+			<option selected value="2009">2009</option>
+			<option value="2010">2010</option>
+			<option value="2011">2011</option>
+			<option value="2012">2012</option>
+			<option value="2013">2013</option>
+			</select>
+			年
+			<select name="select3">
+              <option selected="selected" value="1">01</option>
+              <option value="2">02</option>
+              <option value="3">03</option>
+              <option value="4">04</option>
+              <option value="5">05</option>
+            </select>
+		  月
+		  <select name="select4">
+            <option selected="selected" value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="30">30</option>
+          </select>
+		  日</td>
+		</tr>
+		<tr>
+		<td>使用时间：</td>
+		<td><select name="select5">
+			<option selected value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="12">12</option>
+			<option value="18">18</option>
+			</select>
+			时
+			<select name="select6">
+              <option selected="selected" value="1">01</option>
+              <option value="2">02</option>
+              <option value="3">03</option>
+              <option value="4">04</option>
+              <option value="59">59</option>
+            </select>
+		  分		</td>
+	  </tr>
+		  <tr>
+		  <td>会议地点：</td>
+		  <td ><select name="select1">
+			<option selected>A101</option>
+			<option value="A102">A102</option>
+			<option value="A110">A110</option>
+			<option value="A201">A201</option>
+			</select>			</td>
+		  </tr>
+		  <tr>
+		  <td></td>
+		  <td><input name="query" type="button" class="longButton" value="查询" onclick="goto('meetingquerydetail.html')" /></td>
+		  </tr>
+		<tfoot>
+		
+		</tfoot>
+	</table>
+	<hr class="line"/>
+	<table class="table" >
+      <thead class="tableHead">
+      </thead>
+	  学生信息
+	  <tr>
+        <td class="tableColumeHead">会议编号</td>
+	    <td width="70" class="tableColumeHead">发起人</td>
+	    <td width="134" class="tableColumeHead">会议名称</td>
+	    <td width="77" class="tableColumeHead">会议地点</td>
+	    <td width="119" class="tableColumeHead">会议开始时间</td>
+	    <td width="119" class="tableColumeHead">会议结束时间</td>
+	    <td width="59" class="tableColumeHead">状态</td>
+	    <td width="105" class="tableColumeHead">会议详细信息</td>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>万里鹏</td>
+        <td>关于请客的若干问题</td>
+        <td>A201</td>
+        <td>2009-7-22 9：00</td>
+        <td>2009-7-22 10:00</td>
+        <td>已批准</td>
+        <td><a href="meetingdetail.html" target="_self">点击进入</a></td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>郭勇</td>
+        <td>关于实训的若干问题</td>
+        <td>A110</td>
+        <td>2009-7-23 20:30</td>
+        <td>2009-7-23 21:00</td>
+        <td>待批准</td>
+        <td><a href="#">点击进入</a></td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>赵雅丽</td>
+        <td>关于旅游的若干问题</td>
+        <td>A111</td>
+        <td>2009-7-24 15:30</td>
+        <td>2009-7-24 16:30</td>
+        <td>已批准</td>
+        <td><a href="#">点击进入</a></td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td>章小伟</td>
+        <td>学习研讨会</td>
+        <td>A111</td>
+        <td>2009-7-24 21:00</td>
+        <td>2009-7-24 22:00</td>
+        <td>已批准</td>
+        <td><a href="#">点击进入</a></td>
+      </tr>
+     <tr>
+    <td colspan="8" align="center">第1页　共1页　首页　上一页　下一页　尾页 &nbsp;转至
+      <select name="select" >
+        <option selected>1</option>
+      </select>
+页</td>
+<tr><td><input name="query" type="button"  class="longButton" value="生成报表" onclick="msg('生成成功！')" /></td>
+<td><input name="query2" type="button"  class="longButton" value="申请会议室" onclick="goto('meetingapply.html')" /></td></tr>
+    </table>
+	
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

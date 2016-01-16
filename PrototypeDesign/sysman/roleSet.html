@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="../css/general_style.css"/>
+<script  type="text/javascript" src="../js/adminmenu.js"></script>
+<title>OA办公系统-系统管理</title>
+</head>
+<script language="javascript">
+	function submit()
+	{
+		alert("提交成功");
+		window.location = "roleArran.html";
+	}
+</script>
+
+<body>
+<div id="head"></div>
+<div id="nav">
+	<script  type="text/javascript" language="javascript"> mwritetodocument();</script>
+
+</div>
+<div id="content">
+
+	<div style="color: #FFFFFF; padding-top: 4px;">当前位置->角色管理</div>
+	<hr class="line">
+	<table class="table" cellpadding="4" cellspacing="0">
+		<thead class="tableHead">分配角色</thead>
+		<tr>
+			<td class="tableColumeHead" align="right">员工号：</td>
+			<td align="left"><input name="employeeID" value="101" readonly="true" style="border-color: black; border-width: medium; background-color: gray;"></td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right" >员工姓名：</td>
+			<td align="left">
+				<input name="employeeName" value="小麦" readonly="true" style="border-color: black; border-width: medium; background-color: gray;">
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">部  门：</td>
+			<td align="left">
+				<input name="deptTel" value="人事部" readonly="true" style="border-color: black; border-width: medium; background-color: gray;">
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">联系方式：</td>
+			<td align="left"><input name="employeeTel" readonly="true" value="15789754378" style="border-color: black; border-width: medium; background-color: gray;">
+			</td>
+		</tr>
+		<tr>
+			<td class="tableColumeHead" align="right">系统角色：</td>
+			<td align="left">
+				<select style="width:80">
+					<option selected="selected">普通职员</option>
+					<option>部门领导</option>
+					<option>系统管理员</option>
+				</select>
+			</td>
+		</tr>
+</table>
+	<br>
+	
+	<center>
+		<button class="shortButton" name="delete" onClick=submit()>提交</button>
+		<button class="shortButton" name="delete" onClick="">重置</button>
+		<button class="shortButton" name="delete" onClick="location.href='roleArran.html'">返回</button>
+	</center>
+</div>
+
+
+
+<div id="bottom"></div>
+
+</body>
+</html>
+

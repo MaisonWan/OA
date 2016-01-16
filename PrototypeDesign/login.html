@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" rev="stylesheet" href="css/general_style.css"/>
+<title>OA系统登陆页面</title>
+<script language="javascript">
+	function check()
+	{
+		if( document.myform.username.value == "")
+		{
+			alert('用户名不能为空');
+			return false;
+		}
+		else if( document.myform.password.value == "")
+		{
+			alert('密码不能为空');
+			return false;
+		}
+		else if(document.myform.role[0].checked)
+		{
+			document.myform.action = "./home/home.html";
+			document.myform.submit();
+			return true;
+		}
+		else if(document.myform.role[1].checked)
+		{
+			document.myform.action = "./home/home.html";
+			document.myform.submit();
+			return true;
+		}
+		else if(document.myform.role[2].checked)
+		{
+			document.myform.action = "./sysman/home.html";
+			document.myform.submit();
+			return true;
+		}
+	}
+</script>
+</head>
+
+<body style="background-color: #999999; ">
+	<div style="width: 520px; height: 200px; margin:5px auto; background-color: #FFFFCC; margin-top: 100px; border-bottom-style:groove; border-right-style:groove;">
+		<form action="" method="post" name="myform">
+		<table>
+		<thead class="tableHead">欢迎来到OA办公协同系统</thead>
+			<tr>
+				<td>
+					<img alt="登陆图片" src="images/login.jpg"  width="300px" height="170px"/>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>用户名</td>
+							<td><input type="text" name="username"/></td>
+						</tr>
+						<tr>
+							<td>密  码</td>
+							<td><input type="password" name="password"/></td>
+						</tr>
+						<tr>
+							<td>角色</td>
+							<td><input name="role" type="radio" value="staff" checked>普通职员</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input name="role" type="radio" value="leader">公司领导</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input name="role" type="radio" value="admin">管理员</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="submit" value="登陆" class="shortButton" onClick="check()"/></td>
+							
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table></form>
+	</div>
+
+
+
+</body>
+</html>

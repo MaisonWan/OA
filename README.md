@@ -7,9 +7,9 @@ OA协同办公系统
 <p>同时纪念曾经一起奋斗努力的大学岁月，致一起学习奋斗的同学们！</p>
     
 ##开发部署环境
-*Tomcat 5.5.9
-*JDK 1.4
-*Oracle 9i
+* Tomcat 5.5.9
+* JDK 1.4
+* Oracle 9i
 
 ##系统类图
 ![oa](https://github.com/MaisonWan/OA/blob/master/Document/oa.jpg "百度logo") 
